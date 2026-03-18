@@ -2,10 +2,14 @@
 
 TelunKey 是一款原生 macOS 快捷键启动器，用一轮按键完成应用激活与窗口选择。
 
-- 原生 Swift 实现，响应快、干扰低
+- 原生 Swift 实现，响应快、开销小、干扰低
 - 支持左/右 Command、左/右 Option、Space 触发
 - 面向高频工作流优化窗口切换体验
 - 本地优先，默认不依赖云端行为分析
+
+## 官网
+
+- Vercel 主页：https://telunkey.vercel.app/zh
 
 ## 系统要求
 
