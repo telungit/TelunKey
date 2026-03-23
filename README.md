@@ -39,7 +39,7 @@ https://github.com/user-attachments/assets/762f43e0-eac3-4ffa-ba33-f68f720d2627
 2. 将 `TelunKey.app` 拖到“应用程序”
 3. 先不要打开 App，先双击 DMG 内的 `一键修复.command`
 4. 看到修复完成后，再打开 TelunKey
-5. 只有脚本执行失败时，才需要手动执行下面备用命令（和脚本是同一步）：
+5. 只有脚本执行失败时，才需要手动执行下面备用命令（脚本失败才用，不用重复做两次）：
 
 ```bash
 xattr -dr com.apple.quarantine /Applications/TelunKey.app
