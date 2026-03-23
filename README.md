@@ -1,5 +1,7 @@
 # TelunKey
 
+[简体中文](./README.md) | [繁體中文](./README.zh-Hant.md) | [English](./README.en.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md)
+
 TelunKey 是一款原生 macOS 快捷键启动器，用一轮按键完成应用激活与窗口选择。
 
 - 原生 Swift 实现，响应快、开销小、干扰低
