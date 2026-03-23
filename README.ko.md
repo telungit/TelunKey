@@ -37,13 +37,14 @@ https://github.com/user-attachments/assets/762f43e0-eac3-4ffa-ba33-f68f720d2627
 
 1. `TelunKey.dmg`를 다운로드하고 엽니다
 2. `TelunKey.app`를 응용 프로그램 폴더로 드래그합니다
-3. 첫 실행 시 macOS가 차단하면 다음 명령을 실행합니다:
+3. 설치 후 DMG 안의 `一键修复.command`를 더블클릭합니다(아래 명령을 자동 실행):
 
 ```bash
 xattr -dr com.apple.quarantine /Applications/TelunKey.app
 ```
 
-4. TelunKey를 다시 실행합니다
+4. 스크립트가 실패할 때만 같은 명령을 수동으로 실행합니다(보통 1회)
+5. TelunKey를 다시 실행합니다
 
 ## 권한 안내
 

@@ -37,13 +37,14 @@ https://github.com/user-attachments/assets/762f43e0-eac3-4ffa-ba33-f68f720d2627
 
 1. `TelunKey.dmg` をダウンロードして開く
 2. `TelunKey.app` を「アプリケーション」にドラッグ
-3. 初回起動時に macOS にブロックされた場合、以下を実行：
+3. インストール後、DMG 内の `一键修复.command` をダブルクリック（下記コマンドを自動実行）：
 
 ```bash
 xattr -dr com.apple.quarantine /Applications/TelunKey.app
 ```
 
-4. TelunKey を再起動
+4. スクリプトが失敗した場合のみ、同じコマンドを手動実行（通常 1 回のみ）
+5. TelunKey を再起動
 
 ## 権限について
 

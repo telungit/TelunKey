@@ -37,13 +37,13 @@ https://github.com/user-attachments/assets/762f43e0-eac3-4ffa-ba33-f68f720d2627
 
 1. 下载并打开 `TelunKey.dmg`
 2. 将 `TelunKey.app` 拖到“应用程序”
-3. 首次启动若被系统拦截，执行：
+3. 先不要打开 App，先双击 DMG 内的 `一键修复.command`
+4. 看到修复完成后，再打开 TelunKey
+5. 只有脚本执行失败时，才需要手动执行下面备用命令（和脚本是同一步）：
 
 ```bash
 xattr -dr com.apple.quarantine /Applications/TelunKey.app
 ```
-
-4. 重新打开 TelunKey
 
 ## 权限说明
 

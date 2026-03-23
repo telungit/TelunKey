@@ -37,13 +37,14 @@ https://github.com/user-attachments/assets/762f43e0-eac3-4ffa-ba33-f68f720d2627
 
 1. Download and open `TelunKey.dmg`
 2. Drag `TelunKey.app` into Applications
-3. If blocked by macOS on first launch, run:
+3. After installation, double-click `一键修复.command` inside the DMG (it automatically runs the command below):
 
 ```bash
 xattr -dr com.apple.quarantine /Applications/TelunKey.app
 ```
 
-4. Relaunch TelunKey
+4. If the script fails, run the same command manually as fallback (one-time)
+5. Relaunch TelunKey
 
 ## Permissions
 
