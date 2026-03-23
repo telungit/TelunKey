@@ -43,7 +43,7 @@ https://github.com/user-attachments/assets/762f43e0-eac3-4ffa-ba33-f68f720d2627
 xattr -dr com.apple.quarantine /Applications/TelunKey.app
 ```
 
-4. スクリプトが失敗した場合のみ、同じコマンドを手動実行（通常 1 回のみ）
+4. スクリプトが失敗した場合のみ、ターミナルで下記コマンドを手動実行
 5. TelunKey を再起動
 
 ## 権限について

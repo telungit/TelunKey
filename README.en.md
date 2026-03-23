@@ -43,7 +43,7 @@ https://github.com/user-attachments/assets/762f43e0-eac3-4ffa-ba33-f68f720d2627
 xattr -dr com.apple.quarantine /Applications/TelunKey.app
 ```
 
-4. If the script fails, run the same command manually as fallback (one-time)
+4. Only if the script fails, run the following command manually in Terminal
 5. Relaunch TelunKey
 
 ## Permissions

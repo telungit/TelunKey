@@ -43,7 +43,7 @@ https://github.com/user-attachments/assets/762f43e0-eac3-4ffa-ba33-f68f720d2627
 xattr -dr com.apple.quarantine /Applications/TelunKey.app
 ```
 
-4. 스크립트가 실패할 때만 같은 명령을 수동으로 실행합니다(보통 1회)
+4. 스크립트가 실패할 때만 터미널에서 아래 명령을 수동으로 실행합니다
 5. TelunKey를 다시 실행합니다
 
 ## 권한 안내
