@@ -19,9 +19,9 @@ TelunKey ist ein nativer macOS-Shortcut-Launcher, mit dem App-Aktivierung und Fe
 
 https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 
-![Trigger hint](./images/datishi.png?v=20260329)
-![Chrome scenario](./images/chrome.png?v=20260329)
-![Settings](./images/shezhi.png?v=20260329)
+<img alt="Trigger hint" src="./images/datishi.png?v=20260329" width="100%" />
+<img alt="Chrome scenario" src="./images/chrome.png?v=20260329" width="100%" />
+<img alt="Settings" src="./images/shezhi.png?v=20260329" width="100%" />
 
 ## Systemanforderungen
 
