@@ -36,14 +36,13 @@ https://github.com/user-attachments/assets/762f43e0-eac3-4ffa-ba33-f68f720d2627
 
 1. `TelunKey.dmg` をダウンロードして開く
 2. `TelunKey.app` を「アプリケーション」にドラッグ
-3. インストール後、DMG 内の `一键修复.command` をダブルクリック（下記コマンドを自動実行）：
+3. まだ App は起動せず、DMG 内の `一键修复.command` を先にダブルクリック
+4. 修復が完了したら、TelunKey を起動
+5. スクリプトが失敗した場合のみ、ターミナルで下記コマンドを手動実行
 
 ```bash
 xattr -dr com.apple.quarantine /Applications/TelunKey.app
 ```
-
-4. スクリプトが失敗した場合のみ、ターミナルで下記コマンドを手動実行
-5. TelunKey を再起動
 
 ## 権限について
 

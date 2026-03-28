@@ -36,14 +36,13 @@ https://github.com/user-attachments/assets/762f43e0-eac3-4ffa-ba33-f68f720d2627
 
 1. `TelunKey.dmg`를 다운로드하고 엽니다
 2. `TelunKey.app`를 응용 프로그램 폴더로 드래그합니다
-3. 설치 후 DMG 안의 `一键修复.command`를 더블클릭합니다(아래 명령을 자동 실행):
+3. 앱은 아직 실행하지 말고, DMG 안의 `一键修复.command`를 먼저 더블클릭합니다
+4. 복구가 끝난 뒤 TelunKey를 실행합니다
+5. 스크립트가 실패할 때만 터미널에서 아래 명령을 수동으로 실행합니다
 
 ```bash
 xattr -dr com.apple.quarantine /Applications/TelunKey.app
 ```
-
-4. 스크립트가 실패할 때만 터미널에서 아래 명령을 수동으로 실행합니다
-5. TelunKey를 다시 실행합니다
 
 ## 권한 안내
 

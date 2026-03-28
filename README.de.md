@@ -36,14 +36,13 @@ https://github.com/user-attachments/assets/762f43e0-eac3-4ffa-ba33-f68f720d2627
 
 1. Laden Sie „TelunKey.dmg“ herunter und öffnen Sie es
 2. Ziehen Sie „TelunKey.app“ in „Anwendungen“.
-3. Doppelklicken Sie nach der Installation im DMG auf „一键修复.command“ (der folgende Befehl wird automatisch ausgeführt):
+3. Öffnen Sie die App noch nicht. Doppelklicken Sie zuerst im DMG auf „一键修复.command“.
+4. Öffnen Sie TelunKey, sobald die Reparatur abgeschlossen ist
+5. Führen Sie den folgenden Befehl nur dann manuell im Terminal aus, wenn das Skript fehlschlägt
 
 ```bash
 xattr -dr com.apple.quarantine /Applications/TelunKey.app
 ```
-
-4. Führen Sie den folgenden Befehl nur dann manuell im Terminal aus, wenn das Skript fehlschlägt
-5. Starten Sie TelunKey neu
 
 ## Berechtigungen
 
