@@ -17,7 +17,7 @@ TelunKey は、1 つのキー操作フローでアプリ起動とウィンドウ
 
 ## 画面プレビュー
 
-https://github.com/user-attachments/assets/762f43e0-eac3-4ffa-ba33-f68f720d2627
+https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 
 ![トリガーヒント](./images/datishi.png)
 ![Chrome シーン](./images/chrome.png)

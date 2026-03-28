@@ -17,7 +17,7 @@ TelunKey is a native macOS shortcut launcher that completes app activation and w
 
 ## UI Preview
 
-https://github.com/user-attachments/assets/762f43e0-eac3-4ffa-ba33-f68f720d2627
+https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 
 ![Trigger hint](./images/datishi.png)
 ![Chrome scenario](./images/chrome.png)
