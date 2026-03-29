@@ -19,9 +19,9 @@ TelunKey é um iniciador de atalhos nativo do macOS que completa a ativação do
 
 https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 
-<img alt="Trigger hint" src="./images/datishi.png?v=20260329" width="100%" />
-<img alt="Chrome scenario" src="./images/chrome.png?v=20260329" width="100%" />
-<img alt="Settings" src="./images/shezhi.png?v=20260329" width="100%" />
+<img alt="Dica de ativação" src="./images/datishi.png?v=20260329" width="100%" />
+<img alt="Cenário do Chrome" src="./images/chrome.png?v=20260329" width="100%" />
+<img alt="Tela de ajustes" src="./images/shezhi.png?v=20260329" width="100%" />
 
 ## Requisitos do sistema
 
@@ -55,6 +55,6 @@ TelunKey requer as seguintes permissões para funcionalidade completa:
 
 TelunKey segue uma estratégia local. Os dados principais permanecem em sua máquina.
 
-## Opinião
+## Feedback
 
-- Telegrama: https://t.me/telungram
+- Telegram: https://t.me/telungram

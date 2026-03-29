@@ -19,9 +19,9 @@ TelunKey — это встроенный ярлык запуска macOS, кот
 
 https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 
-<img alt="Trigger hint" src="./images/datishi.png?v=20260329" width="100%" />
-<img alt="Chrome scenario" src="./images/chrome.png?v=20260329" width="100%" />
-<img alt="Settings" src="./images/shezhi.png?v=20260329" width="100%" />
+<img alt="Подсказка триггера" src="./images/datishi.png?v=20260329" width="100%" />
+<img alt="Сценарий Chrome" src="./images/chrome.png?v=20260329" width="100%" />
+<img alt="Экран настроек" src="./images/shezhi.png?v=20260329" width="100%" />
 
 ## Системные требования
 
@@ -57,4 +57,4 @@ TelunKey придерживается стратегии «сначала мес
 
 ## Обратная связь
 
-- Телеграмм: https://t.me/telungram
+- Telegram: https://t.me/telungram
