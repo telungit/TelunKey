@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 
 1. 下載並開啟 `TelunKey.dmg`
 2. 將 `TelunKey.app` 拖到「應用程式」
-3. 先不要打開 App，先雙擊 DMG 內的 `一鍵修復.command`
+3. 先不要打開 App，先雙擊 DMG 內的 `2. Run Once After Install.command`
 4. 看到修復完成後，再打開 TelunKey
 5. 只有腳本執行失敗時，才需要在終端機中手動執行如下命令。
 

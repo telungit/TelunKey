@@ -1,12 +1,12 @@
 # TelunKey
 [简体中文](./README.md) | [繁體中文](./README.zh-Hant.md) | [English](./README.en.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Español](./README.es.md) | [Português](./README.pt.md) | [हिन्दी](./README.hi.md) | [Русский](./README.ru.md) | [Français](./README.fr.md) | [Deutsch](./README.de.md) | [العربية](./README.ar.md)
 
-TelunKey é um iniciador de atalhos nativo do macOS que completa a ativação do aplicativo e a seleção de janelas em um fluxo de teclas.
+TelunKey é um lançador de atalhos nativo do macOS que reúne ativação de apps e seleção de janelas em uma única sequência de teclas.
 
-- Construído com Swift nativo para resposta rápida, baixa sobrecarga e interrupção mínima
-- Suporta comando Esquerdo/Direito (atraso 0 ou atraso personalizado), opção Esquerda/Direita (atraso 0 ou atraso personalizado) e gatilho de espaço (atraso mínimo de 0,2s para evitar afetar a digitação normal)
+- Construído em Swift nativo para resposta rápida, baixo consumo e mínima interferência
+- Suporta Command esquerdo/direito (atraso zero ou personalizado), Option esquerda/direita (atraso zero ou personalizado) e gatilho com Space (mínimo de 0,2 s para não atrapalhar a digitação diária)
 - Otimizado para fluxos de trabalho de alta frequência e troca de janela mais suave
-- Prioridade local por design, sem dependência padrão de análise de comportamento na nuvem
+- Design local-first, sem dependência padrão de análise comportamental na nuvem
 
 ## Site
 
@@ -53,7 +53,7 @@ TelunKey requer as seguintes permissões para funcionalidade completa:
 
 ## Privacidade
 
-TelunKey segue uma estratégia local. Os dados principais permanecem em sua máquina.
+TelunKey segue uma estratégia local-first. Os dados principais permanecem no seu dispositivo.
 
 ## Feedback
 

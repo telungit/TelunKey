@@ -1,12 +1,12 @@
 # TelunKey
 [简体中文](./README.md) | [繁體中文](./README.zh-Hant.md) | [English](./README.en.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Español](./README.es.md) | [Português](./README.pt.md) | [हिन्दी](./README.hi.md) | [Русский](./README.ru.md) | [Français](./README.fr.md) | [Deutsch](./README.de.md) | [العربية](./README.ar.md)
 
-TelunKey est un lanceur de raccourcis natif pour macOS qui effectue l'activation de l'application et la sélection des fenêtres en un seul flux de touches.
+TelunKey est un lanceur de raccourcis natif pour macOS qui réunit l’activation d’apps et la sélection de fenêtres dans une seule séquence de touches.
 
-- Construit avec Swift natif pour une réponse rapide, une faible surcharge et une interruption minimale
-- Prend en charge la commande gauche/droite (délai 0 ou délai personnalisé), l'option gauche/droite (délai 0 ou délai personnalisé) et le déclencheur spatial (délai minimum de 0,2 s pour éviter d'affecter la saisie normale)
+- Construit en Swift natif pour une réponse rapide, une faible consommation et une interruption minimale
+- Prend en charge Command gauche/droite (délai nul ou personnalisé), Option gauche/droite (délai nul ou personnalisé) et le déclenchement avec Space (minimum 0,2 s pour ne pas perturber la saisie quotidienne)
 - Optimisé pour les flux de travail à haute fréquence et un changement de fenêtre plus fluide
-- Local d'abord par conception, sans dépendance par défaut sur l'analyse du comportement du cloud
+- Conçu en local-first, sans dépendance par défaut à l’analyse comportementale dans le cloud
 
 ## Site web
 
@@ -53,7 +53,7 @@ TelunKey nécessite les autorisations suivantes pour bénéficier de toutes les 
 
 ## Confidentialité
 
-TelunKey suit une stratégie axée sur le local. Les données de base restent sur votre machine.
+TelunKey suit une stratégie local-first. Les données essentielles restent sur votre machine.
 
 ## Retour
 
