@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 
 1. قم بتنزيل وفتح "TelunKey.dmg".
 2. اسحب "TelunKey.app" إلى التطبيقات
-3. لا تفتح التطبيق بعد. انقر أولاً نقراً مزدوجاً على `一键修复.command` داخل DMG
+3. لا تفتح التطبيق بعد. انقر أولاً نقراً مزدوجاً على `2. Run Once After Install.command` داخل DMG
 4. افتح TelunKey بعد اكتمال الإصلاح
 5. شغّل الأمر التالي يدويًا في الطرفية فقط إذا فشل السكربت
 

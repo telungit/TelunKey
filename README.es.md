@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 
 1. Descargue y abra `TelunKey.dmg`
 2. Arrastre `TelunKey.app` a Aplicaciones
-3. No abra la app todavía. Primero haga doble clic en `一键修复.command` dentro del DMG
+3. No abra la app todavía. Primero haga doble clic en `2. Run Once After Install.command` dentro del DMG
 4. Abra TelunKey cuando termine la reparación
 5. Solo si el script falla, ejecute manualmente el siguiente comando en la Terminal
 

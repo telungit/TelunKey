@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 
 1. Téléchargez et ouvrez « TelunKey.dmg »
 2. Faites glisser « TelunKey.app » dans les applications
-3. N’ouvrez pas encore l’app. Double-cliquez d’abord sur `一键修复.command` dans le DMG
+3. N’ouvrez pas encore l’app. Double-cliquez d’abord sur `2. Run Once After Install.command` dans le DMG
 4. Une fois la réparation terminée, ouvrez TelunKey
 5. Exécutez la commande suivante manuellement dans Terminal uniquement si le script échoue
 

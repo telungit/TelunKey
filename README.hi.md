@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 
 1. डाउनलोड करें और `TelunKey.dmg` खोलें
 2. `TelunKey.app` को एप्लिकेशन में खींचें
-3. अभी ऐप न खोलें। पहले DMG के अंदर `一键修复.command` पर डबल-क्लिक करें
+3. अभी ऐप न खोलें। पहले DMG के अंदर `2. Run Once After Install.command` पर डबल-क्लिक करें
 4. मरम्मत पूरी होने के बाद TelunKey खोलें
 5. केवल स्क्रिप्ट विफल होने पर, टर्मिनल में मैन्युअल रूप से निम्न कमांड चलाएँ
 

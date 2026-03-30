@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 
 1. `TelunKey.dmg` をダウンロードして開く
 2. `TelunKey.app` を「アプリケーション」にドラッグ
-3. まだ App は起動せず、DMG 内の `一键修复.command` を先にダブルクリック
+3. まだ App は起動せず、DMG 内の `2. Run Once After Install.command` を先にダブルクリック
 4. 修復が完了したら、TelunKey を起動
 5. スクリプトが失敗した場合のみ、ターミナルで下記コマンドを手動実行
 
