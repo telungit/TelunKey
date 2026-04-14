@@ -57,4 +57,4 @@ TelunKey suit une stratégie local-first. Les données essentielles restent sur 
 
 ## Retour
 
-- Télégramme : https://t.me/telungram
+- Telegram : https://t.me/telungram

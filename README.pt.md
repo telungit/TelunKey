@@ -48,7 +48,7 @@ xattr -dr com.apple.quarantine /Applications/TelunKey.app
 
 TelunKey requer as seguintes permissões para funcionalidade completa:
 
-- Acessibilidade: ouça eventos globais de teclado
+- Acessibilidade: monitorar eventos globais do teclado
 - Gravação de tela: gere miniaturas de janelas
 
 ## Privacidade
