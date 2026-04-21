@@ -12,7 +12,7 @@ TelunKey es un lanzador de atajos nativo de macOS que permite activar apps y ele
 
 - Página de inicio de Zeabur: https://telunkey.zeabur.app
 
-> [!IMPORTANTE]
+> [!IMPORTANT]
 > Si no puede acceder a Zeabur en absoluto, es posible que TelunKey no se ajuste a su entorno actual. Si puede resolver los problemas de red por su parte, vale la pena probar TelunKey y puede mejorar su eficiencia.
 
 ## Vista previa de la interfaz de usuario
@@ -49,7 +49,7 @@ xattr -dr com.apple.quarantine /Applications/TelunKey.app
 TelunKey requiere los siguientes permisos para una funcionalidad completa:
 
 - Accesibilidad: escuchar eventos globales de teclado
-- Grabación de pantalla: genera miniaturas de ventanas
+- Grabación de pantalla: generar miniaturas de ventanas
 
 ## Privacidad
 

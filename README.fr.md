@@ -48,13 +48,13 @@ xattr -dr com.apple.quarantine /Applications/TelunKey.app
 
 TelunKey nécessite les autorisations suivantes pour bénéficier de toutes les fonctionnalités :
 
-- Accessibilité : écoutez les événements mondiaux du clavier
+- Accessibilité : écouter les événements globaux du clavier
 - Enregistrement d'écran : générer des vignettes de fenêtre
 
 ## Confidentialité
 
 TelunKey suit une stratégie local-first. Les données essentielles restent sur votre machine.
 
-## Retour
+## Retours
 
 - Telegram : https://t.me/telungram
