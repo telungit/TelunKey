@@ -40,8 +40,6 @@ brew install --cask telungit/tap/telunkey
 
 ## 更新
 
-退出 TelunKey 后执行：
-
 ```bash
 brew update
 brew upgrade --cask --greedy telungit/tap/telunkey
