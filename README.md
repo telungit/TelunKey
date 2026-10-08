@@ -27,7 +27,7 @@ https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 
 - macOS 14.0 及以上
 
-## Homebrew 安装
+## 安装
 
 已安装 [Homebrew](https://brew.sh/) 的用户可以执行：
 
@@ -36,33 +36,18 @@ brew update
 brew install --cask telungit/tap/telunkey
 ```
 
-安装完成后，从“应用程序”打开 TelunKey。当前发行包尚未经过 Apple 公证，配方会自动移除本次安装的 `TelunKey.app` 的隔离标记，无需单独运行修复命令；首次运行仍需授予辅助功能权限。
+安装后，从“应用程序”打开 TelunKey。
 
-通过 Homebrew 更新时，先退出 TelunKey，再执行：
+## 更新
+
+退出 TelunKey 后执行：
 
 ```bash
 brew update
 brew upgrade --cask --greedy telungit/tap/telunkey
 ```
 
-应用内更新功能仍然可用。如果原先通过 DMG 手动安装，请参阅 [tap 中的迁移、重装和卸载说明](https://github.com/telungit/homebrew-tap#从手动安装迁移)。
-
-## DMG 下载
-
-- 最新版本（DMG）：https://github.com/telungit/TelunKey/releases/latest/download/TelunKey.dmg
-- 所有版本：https://github.com/telungit/TelunKey/releases
-
-## DMG 安装
-
-1. 下载并打开 `TelunKey.dmg`
-2. 将 `TelunKey.app` 拖到“应用程序”
-3. 先不要打开 App，先双击 DMG 内的 `2. Run Once After Install.command`
-4. 看到修复完成后，再打开 TelunKey
-5. 只有脚本执行失败时，才需要在终端中手动执行如下命令。
-
-```bash
-xattr -dr com.apple.quarantine /Applications/TelunKey.app
-```
+也可以在应用内检查更新。
 
 ## 权限说明
 
