@@ -13,7 +13,7 @@ TelunKey 是一款原生 macOS 快捷鍵啟動器，用一輪按鍵完成應用�
 - Zeabur 首頁：https://telunkey.zeabur.app
 
 > [!IMPORTANT]
-> 如果始終無法正常訪問 Zeabur，其實您可能不具備使用 TelunKey 的場景；如果您有能力且有耐心解決網路問題，建議一定要試試 TelunKey，我相信它能提升您的效率。
+> 如果始終無法正常訪問 Zeabur，其實您應該不會有使用 TelunKey 的場景；如果您有能力且有耐心解決網路問題，建議一定要試試 TelunKey，我相信它絕對能提升您的效率。
 
 ## 介面預覽
 
@@ -27,22 +27,25 @@ https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 
 - macOS 14.0 及以上
 
-## 下載
-
-- 最新版本（DMG）：https://github.com/telungit/TelunKey/releases/latest/download/TelunKey.dmg
-- 所有版本：https://github.com/telungit/TelunKey/releases
-
 ## 安裝
 
-1. 下載並開啟 `TelunKey.dmg`
-2. 將 `TelunKey.app` 拖到「應用程式」
-3. 先不要打開 App，先雙擊 DMG 內的 `2. Run Once After Install.command`
-4. 看到修復完成後，再打開 TelunKey
-5. 只有腳本執行失敗時，才需要在終端機中手動執行如下命令。
+已安裝 [Homebrew](https://brew.sh/) 的使用者可以執行：
 
 ```bash
-xattr -dr com.apple.quarantine /Applications/TelunKey.app
+brew update
+brew install --cask telungit/tap/telunkey
 ```
+
+安裝後，從「應用程式」開啟 TelunKey。
+
+## 更新
+
+```bash
+brew update
+brew upgrade --cask --greedy telungit/tap/telunkey
+```
+
+也可以在應用程式內檢查更新。
 
 ## 權限說明
 

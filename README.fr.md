@@ -13,7 +13,7 @@ TelunKey est un lanceur de raccourcis natif pour macOS qui réunit l’activatio
 - Page d'accueil de Zeabur : https://telunkey.zeabur.app
 
 > [!IMPORTANT]
-> Si vous ne pouvez pas du tout accéder à Zeabur, TelunKey peut ne pas convenir à votre environnement actuel. Si vous parvenez à résoudre les problèmes de réseau de votre côté, TelunKey vaut la peine d'être essayé et peut améliorer votre efficacité.
+> Si vous ne parvenez pas du tout à accéder à Zeabur, vous n'aurez probablement pas d'usage pour TelunKey. Mais si vous avez la capacité et la patience de surmonter ces contraintes réseau, essayez absolument TelunKey : je suis convaincu qu'il améliorera considérablement votre productivité.
 
 ## Aperçu de l'interface utilisateur
 
@@ -27,29 +27,32 @@ https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 
 - macOS 14.0 ou version ultérieure
 
-## Télécharger
-
-- Dernière version (DMG) : https://github.com/telungit/TelunKey/releases/latest/download/TelunKey.dmg
-- Toutes les versions : https://github.com/telungit/TelunKey/releases
-
 ## Installation
 
-1. Téléchargez et ouvrez « TelunKey.dmg »
-2. Faites glisser « TelunKey.app » dans les applications
-3. N’ouvrez pas encore l’app. Double-cliquez d’abord sur `2. Run Once After Install.command` dans le DMG
-4. Une fois la réparation terminée, ouvrez TelunKey
-5. Exécutez la commande suivante manuellement dans Terminal uniquement si le script échoue
+Les utilisateurs ayant installé [Homebrew](https://brew.sh/) peuvent exécuter :
 
 ```bash
-xattr -dr com.apple.quarantine /Applications/TelunKey.app
+brew update
+brew install --cask telungit/tap/telunkey
 ```
+
+Après l'installation, ouvrez TelunKey depuis « Applications ».
+
+## Mise à jour
+
+```bash
+brew update
+brew upgrade --cask --greedy telungit/tap/telunkey
+```
+
+Vous pouvez également vérifier les mises à jour directement depuis l'application.
 
 ## Autorisations
 
-TelunKey nécessite les autorisations suivantes pour bénéficier de toutes les fonctionnalités :
+TelunKey nécessite les autorisations suivantes pour bénéficier de toutes les fonctionnalités :
 
-- Accessibilité : écouter les événements globaux du clavier
-- Enregistrement d'écran : générer des vignettes de fenêtre
+- Accessibilité : écouter les événements globaux du clavier
+- Enregistrement d'écran : générer des vignettes de fenêtre
 
 ## Confidentialité
 

@@ -10,10 +10,10 @@ TelunKey एक नटिव macOS शॉर्टकट लॉन्चर ह�
 
 ## वेबसाइट
 
-- ज़ेबुर होमपेज: https://telunkey.zeabur.app
+- Zeabur होमपेज: https://telunkey.zeabur.app
 
 > [!IMPORTANT]
-> यदि आप ज़ेबुर तक बिल्कुल भी नहीं पहुंच सकते हैं, तो TelunKey आपके वर्तमान परिवेश में फिट नहीं हो सकता है। यदि आप अपनी ओर से नेटवर्क समस्याओं को हल कर सकते हैं, तो TelunKey प्रयास करने लायक है और आपकी दक्षता में सुधार कर सकता है।
+> यदि आप Zeabur तक लगातार नहीं पहुंच पा रहे हैं, तो संभवतः आपके पास TelunKey के उपयोग का कोई परिदृश्य नहीं होगा। लेकिन यदि आपके पास नेटवर्क समस्याओं को हल करने की क्षमता और धैर्य है, तो आपको निश्चित रूप से TelunKey आज़माना चाहिए—मुझे पूरा विश्वास है कि यह आपकी उत्पादकता में उल्लेखनीय सुधार करेगा।
 
 ## यूआई पूर्वावलोकन
 
@@ -27,22 +27,25 @@ https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 
 - macOS 14.0 या बाद का संस्करण
 
-## डाउनलोड करना
-
-- नवीनतम रिलीज़ (डीएमजी): https://github.com/telungit/TelunKey/releases/latest/download/TelunKey.dmg
-- सभी रिलीज़: https://github.com/telungit/TelunKey/releases
-
 ## स्थापना
 
-1. डाउनलोड करें और `TelunKey.dmg` खोलें
-2. `TelunKey.app` को एप्लिकेशन में खींचें
-3. अभी ऐप न खोलें। पहले DMG के अंदर `2. Run Once After Install.command` पर डबल-क्लिक करें
-4. मरम्मत पूरी होने के बाद TelunKey खोलें
-5. केवल स्क्रिप्ट विफल होने पर, टर्मिनल में मैन्युअल रूप से निम्न कमांड चलाएँ
+जिन उपयोगकर्ताओं के पास [Homebrew](https://brew.sh/) स्थापित है, वे यह चला सकते हैं:
 
 ```bash
-xattr -dr com.apple.quarantine /Applications/TelunKey.app
+brew update
+brew install --cask telungit/tap/telunkey
 ```
+
+स्थापना के बाद, "एप्लिकेशन्स" (Applications) से TelunKey खोलें।
+
+## अपडेट करना
+
+```bash
+brew update
+brew upgrade --cask --greedy telungit/tap/telunkey
+```
+
+आप ऐप के भीतर भी अपडेट की जांच कर सकते हैं।
 
 ## अनुमतियाँ
 
@@ -57,4 +60,4 @@ TelunKey local-first रणनीति का पालन करता है�
 
 ## प्रतिक्रिया
 
-- टेलीग्राम: https://t.me/telungram
+- Telegram: https://t.me/telungram

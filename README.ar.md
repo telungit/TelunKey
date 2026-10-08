@@ -5,15 +5,15 @@ TelunKey هو مشغل اختصارات أصلي لنظام macOS ينجز تف�
 
 - مطور بلغة Swift الأصلية لاستجابة سريعة واستهلاك منخفض وتداخل أقل
 - يدعم Command الأيسر/الأيمن (تأخير 0 أو مخصص)، وOption الأيسر/الأيمن (تأخير 0 أو مخصص)، وتفعيل Space (حد أدنى 0.2 ثانية لتجنب التأثير على الكتابة اليومية)
-- مُحسّن لسير العمل عالي التكرار ولتنقّل أكثر سلاسة بين النوافذ
+- مُحسّن لسير العمل عالي التردد ولتنقّل أكثر سلاسة بين النوافذ
 - تصميم local-first دون اعتماد افتراضي على تحليلات السلوك السحابية
 
 ## موقع إلكتروني
 
-- صفحة زيبور الرئيسية: https://telunkey.zeabur.app
+- صفحة Zeabur الرئيسية: https://telunkey.zeabur.app
 
 > [!IMPORTANT]
-> إذا لم تتمكن من الوصول إلى Zeabur على الإطلاق، فقد لا يناسب TelunKey بيئتك الحالية. إذا كان بإمكانك حل مشكلات الشبكة من جانبك، فإن TelunKey يستحق المحاولة ويمكنه تحسين كفاءتك.
+> إذا تعذر عليك الوصول إلى Zeabur باستمرار، فمن المحتمل ألا يكون لديك سيناريو لاستخدام TelunKey؛ ولكن إذا كانت لديك القدرة والصبر على تجاوز عقبات الشبكة، فعليك بالتأكيد تجربة TelunKey، وأنا على ثقة تامة بأنه سيعزز إنتاجيتك بشكل ملحوظ.
 
 ## معاينة واجهة المستخدم
 
@@ -27,22 +27,25 @@ https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 
 - macOS 14.0 أو أحدث
 
-## تحميل
-
-- أحدث إصدار (DMG): https://github.com/telungit/TelunKey/releases/latest/download/TelunKey.dmg
-- جميع الإصدارات: https://github.com/telungit/TelunKey/releases
-
 ## تثبيت
 
-1. قم بتنزيل وفتح "TelunKey.dmg".
-2. اسحب "TelunKey.app" إلى التطبيقات
-3. لا تفتح التطبيق بعد. انقر أولاً نقراً مزدوجاً على `2. Run Once After Install.command` داخل DMG
-4. افتح TelunKey بعد اكتمال الإصلاح
-5. شغّل الأمر التالي يدويًا في الطرفية فقط إذا فشل السكربت
+يمكن للمستخدمين الذين لديهم [Homebrew](https://brew.sh/) تشغيل:
 
 ```bash
-xattr -dr com.apple.quarantine /Applications/TelunKey.app
+brew update
+brew install --cask telungit/tap/telunkey
 ```
+
+بعد التثبيت، افتح TelunKey من "التطبيقات".
+
+## تحديث
+
+```bash
+brew update
+brew upgrade --cask --greedy telungit/tap/telunkey
+```
+
+يمكنك أيضًا التحقق من وجود تحديثات من داخل التطبيق.
 
 ## الأذونات
 

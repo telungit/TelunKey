@@ -13,7 +13,7 @@ TelunKey は、1 つのキー操作フローでアプリ起動とウィンドウ
 - Zeabur ホームページ：https://telunkey.zeabur.app
 
 > [!IMPORTANT]
-> Zeabur に常にアクセスできない場合、現在の環境では TelunKey が適さない可能性があります。ネットワーク問題を解決できる場合は、TelunKey を試す価値があります。
+> Zeabur にどうしてもアクセスできない場合、おそらく TelunKey を活用できる場面はないかもしれません。もしネットワーク環境の課題を解決する手段と根気をお持ちであれば、ぜひ TelunKey を試してみてください。作業効率が飛躍的に向上することを確信しています。
 
 ## 画面プレビュー
 
@@ -27,22 +27,25 @@ https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 
 - macOS 14.0 以降
 
-## ダウンロード
-
-- 最新版（DMG）：https://github.com/telungit/TelunKey/releases/latest/download/TelunKey.dmg
-- すべてのバージョン：https://github.com/telungit/TelunKey/releases
-
 ## インストール
 
-1. `TelunKey.dmg` をダウンロードして開く
-2. `TelunKey.app` を「アプリケーション」にドラッグ
-3. まだ App は起動せず、DMG 内の `2. Run Once After Install.command` を先にダブルクリック
-4. 修復が完了したら、TelunKey を起動
-5. スクリプトが失敗した場合のみ、ターミナルで下記コマンドを手動実行
+[Homebrew](https://brew.sh/) をインストール済みの場合は、以下を実行してください：
 
 ```bash
-xattr -dr com.apple.quarantine /Applications/TelunKey.app
+brew update
+brew install --cask telungit/tap/telunkey
 ```
+
+インストール後、「アプリケーション」から TelunKey を起動します。
+
+## アップデート
+
+```bash
+brew update
+brew upgrade --cask --greedy telungit/tap/telunkey
+```
+
+アプリ内からアップデートを確認することもできます。
 
 ## 権限について
 
