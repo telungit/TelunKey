@@ -32,7 +32,6 @@ https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 [Homebrew](https://brew.sh/)가 설치되어 있다면 다음 명령을 실행할 수 있습니다:
 
 ```bash
-brew update
 brew install --cask telungit/tap/telunkey
 ```
 
@@ -41,7 +40,6 @@ brew install --cask telungit/tap/telunkey
 ## 업데이트
 
 ```bash
-brew update
 brew upgrade --cask --greedy telungit/tap/telunkey
 ```
 

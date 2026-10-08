@@ -32,7 +32,6 @@ https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 يمكن للمستخدمين الذين لديهم [Homebrew](https://brew.sh/) تشغيل:
 
 ```bash
-brew update
 brew install --cask telungit/tap/telunkey
 ```
 
@@ -41,7 +40,6 @@ brew install --cask telungit/tap/telunkey
 ## تحديث
 
 ```bash
-brew update
 brew upgrade --cask --greedy telungit/tap/telunkey
 ```
 

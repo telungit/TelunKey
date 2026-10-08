@@ -32,7 +32,6 @@ https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 Les utilisateurs ayant installé [Homebrew](https://brew.sh/) peuvent exécuter :
 
 ```bash
-brew update
 brew install --cask telungit/tap/telunkey
 ```
 
@@ -41,7 +40,6 @@ Après l'installation, ouvrez TelunKey depuis « Applications ».
 ## Mise à jour
 
 ```bash
-brew update
 brew upgrade --cask --greedy telungit/tap/telunkey
 ```
 
