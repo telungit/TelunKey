@@ -10,10 +10,7 @@ TelunKey 是一款原生 macOS 快捷鍵啟動器，用一輪按鍵完成應用�
 
 ## 官網
 
-- Zeabur 首頁：https://telunkey.zeabur.app
-
-> [!IMPORTANT]
-> 如果始終無法正常訪問 Zeabur，其實您應該不會有使用 TelunKey 的場景；如果您有能力且有耐心解決網路問題，建議一定要試試 TelunKey，我相信它絕對能提升您的效率。
+- 首頁：https://www.telunkey.shop
 
 ## 介面預覽
 

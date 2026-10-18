@@ -10,10 +10,7 @@ TelunKey는 한 번의 키 입력 흐름으로 앱 활성화와 창 선택을 �
 
 ## 웹사이트
 
-- Zeabur 홈페이지: https://telunkey.zeabur.app
-
-> [!IMPORTANT]
-> Zeabur에 계속해서 정상적으로 접속할 수 없다면, 실제로 TelunKey를 활용할 만한 상황이 아닐 수 있습니다. 하지만 네트워크 문제를 해결할 역량과 인내심이 있으시다면 꼭 TelunKey를 사용해 보시기 바랍니다. 분명 업무 효율을 획기적으로 높여줄 것입니다.
+- 홈페이지: https://www.telunkey.shop
 
 ## 화면 미리보기
 

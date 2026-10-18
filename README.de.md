@@ -10,10 +10,7 @@ TelunKey ist ein nativer macOS-Shortcut-Launcher, mit dem App-Aktivierung und Fe
 
 ## Website
 
-- Zeabur-Homepage: https://telunkey.zeabur.app
-
-> [!IMPORTANT]
-> Wenn Sie dauerhaft keinen Zugriff auf Zeabur haben, gibt es für Sie vermutlich keinen passenden Anwendungsfall für TelunKey. Wenn Sie jedoch das Know-how und die Geduld mitbringen, Netzwerkprobleme zu lösen, sollten Sie TelunKey unbedingt ausprobieren – ich bin überzeugt, dass es Ihre Effizienz spürbar steigern wird.
+- Homepage: https://www.telunkey.shop
 
 ## UI-Vorschau
 

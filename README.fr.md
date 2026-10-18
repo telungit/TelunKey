@@ -10,10 +10,7 @@ TelunKey est un lanceur de raccourcis natif pour macOS qui réunit l’activatio
 
 ## Site web
 
-- Page d'accueil de Zeabur : https://telunkey.zeabur.app
-
-> [!IMPORTANT]
-> Si vous ne parvenez pas du tout à accéder à Zeabur, vous n'aurez probablement pas d'usage pour TelunKey. Mais si vous avez la capacité et la patience de surmonter ces contraintes réseau, essayez absolument TelunKey : je suis convaincu qu'il améliorera considérablement votre productivité.
+- Page d'accueil : https://www.telunkey.shop
 
 ## Aperçu de l'interface utilisateur
 

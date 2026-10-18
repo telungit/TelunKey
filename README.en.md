@@ -10,10 +10,7 @@ TelunKey is a native macOS shortcut launcher that completes app activation and w
 
 ## Website
 
-- Zeabur homepage: https://telunkey.zeabur.app
-
-> [!IMPORTANT]
-> If you cannot access Zeabur reliably, you likely will not have a use case for TelunKey. However, if you have both the capability and the patience to navigate network hurdles, you definitely should give TelunKey a try—I firmly believe it will boost your productivity.
+- Homepage: https://www.telunkey.shop
 
 ## UI Preview
 

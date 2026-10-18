@@ -10,10 +10,7 @@ TelunKey は、1 つのキー操作フローでアプリ起動とウィンドウ
 
 ## 公式サイト
 
-- Zeabur ホームページ：https://telunkey.zeabur.app
-
-> [!IMPORTANT]
-> Zeabur にどうしてもアクセスできない場合、おそらく TelunKey を活用できる場面はないかもしれません。もしネットワーク環境の課題を解決する手段と根気をお持ちであれば、ぜひ TelunKey を試してみてください。作業効率が飛躍的に向上することを確信しています。
+- ホームページ：https://www.telunkey.shop
 
 ## 画面プレビュー
 

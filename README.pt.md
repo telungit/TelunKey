@@ -10,10 +10,7 @@ TelunKey é um lançador de atalhos nativo do macOS que reúne ativação de app
 
 ## Site
 
-- Página inicial do Zeabur: https://telunkey.zeabur.app
-
-> [!IMPORTANT]
-> Se você não conseguir acessar o Zeabur com regularidade, é provável que não tenha um cenário real de uso para o TelunKey. Mas se tiver a capacidade e a paciência para contornar problemas de rede, não deixe de experimentar o TelunKey — tenho certeza de que ele aumentará significativamente a sua produtividade.
+- Página inicial: https://www.telunkey.shop
 
 ## Visualização da IU
 
