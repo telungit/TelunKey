@@ -11,7 +11,9 @@ Segure uma tecla de gatilho e digite de uma a três teclas para chegar a qualque
 [![Versão mais recente](https://img.shields.io/github/v/release/telungit/TelunKey?label=release)](https://github.com/telungit/TelunKey/releases/latest)
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
 
-[Site](https://www.telunkey.shop) · [Instalar](#install) · [Feedback](#feedback)
+[telunkey.shop](https://www.telunkey.shop)
+
+[Instalar](#install) · [Feedback](#feedback)
 
 [简体中文](./README.md) | [繁體中文](./README.zh-Hant.md) | [English](./README.en.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Español](./README.es.md) | Português | [हिन्दी](./README.hi.md) | [Русский](./README.ru.md) | [Français](./README.fr.md) | [Deutsch](./README.de.md) | [العربية](./README.ar.md)
 
@@ -73,24 +75,12 @@ Na primeira abertura, um assistente guia você pelas permissões, teclas de gati
 brew upgrade --cask --greedy telungit/tap/telunkey
 ```
 
-## Permissões e privacidade
+## Permissões
 
 | Permissão | Para quê |
 | --- | --- |
 | Acessibilidade (obrigatória) | Detectar teclas de gatilho e gestos; alternar e posicionar janelas |
 | Gravação de tela (opcional) | Miniaturas das janelas; sem ela, aparecem os ícones dos apps e a troca continua funcionando |
-
-TelunKey prioriza o local e não coleta conteúdo de pressionamento de tecla ou telemetria de comportamento de janela.
-
-A Dodo Payments processa pagamentos, e-mails de compra, chaves e ativações. A ativação envia a chave e o nome do dispositivo para gerenciar o limite de dois Macs. A chave e o registro local ficam nas Chaves do sistema. Não armazenamos cartões nem criamos contas no site.
-
-## Versão gratuita e Atualizações vitalícias
-
-A versão gratuita permite atribuir até 5 apps, com todos os recursos, sem limite de tempo nem conta. O plano Atualizações vitalícias custa US$3.99 em pagamento único e inclui atribuições ilimitadas e futuras atualizações.
-
-Depois de concluir o pagamento, procure o e-mail da Dodo Payments com a chave de licença e digite-a na página Licença dos ajustes do TelunKey. Não é preciso conta. Você pode usar em 2 Macs; desative o antigo antes de trocar.
-
-[Planos e termos](https://www.telunkey.shop/pt/terms)
 
 <a id="feedback"></a>
 

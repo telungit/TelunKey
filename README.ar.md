@@ -11,7 +11,9 @@
 [![أحدث إصدار](https://img.shields.io/github/v/release/telungit/TelunKey?label=release)](https://github.com/telungit/TelunKey/releases/latest)
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
 
-[الموقع](https://www.telunkey.shop) · [التثبيت](#install) · [الملاحظات](#feedback)
+[telunkey.shop](https://www.telunkey.shop)
+
+[التثبيت](#install) · [الملاحظات](#feedback)
 
 [简体中文](./README.md) | [繁體中文](./README.zh-Hant.md) | [English](./README.en.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Español](./README.es.md) | [Português](./README.pt.md) | [हिन्दी](./README.hi.md) | [Русский](./README.ru.md) | [Français](./README.fr.md) | [Deutsch](./README.de.md) | العربية
 
@@ -87,24 +89,12 @@ brew upgrade --cask --greedy telungit/tap/telunkey
 
 <div dir="rtl">
 
-## الأذونات والخصوصية
+## الأذونات
 
 | الإذن | الاستخدام |
 | --- | --- |
 | تسهيلات الاستخدام (مطلوب) | التعرّف على مفاتيح التفعيل والإيماءات، وتبديل النوافذ وترتيبها |
 | تسجيل الشاشة (اختياري) | الصور المصغّرة للنوافذ؛ ومن دونه تُعرض أيقونات التطبيقات ويظل التبديل يعمل |
-
-TelunKey هو محلي أولاً ولا يجمع محتوى ضغطات المفاتيح أو قياس سلوك النافذة عن بعد.
-
-تدير Dodo Payments المدفوعات وبريد الشراء والمفاتيح وتفعيل الأجهزة. يرسل التفعيل المفتاح واسم الجهاز لإدارة حد الجهازين. يُحفظ المفتاح وسجل الجهاز في سلسلة مفاتيح النظام. لا نحفظ بيانات البطاقات ولا ننشئ حسابات للموقع.
-
-## الإصدار المجاني وتحديثات مدى الحياة
-
-يتيح الإصدار المجاني ربط ما يصل إلى 5 تطبيقات مع جميع الميزات، دون حد زمني أو حساب. تحديثات مدى الحياة بدفعة واحدة قدرها US$3.99 تشمل عددًا غير محدود من التطبيقات والتحديثات المستقبلية.
-
-بعد إتمام الدفع، ابحث عن رسالة Dodo Payments التي تحوي مفتاح الترخيص وأدخله في صفحة الترخيص في إعدادات TelunKey. لا حاجة إلى حساب. يمكنك استخدامه على جهازي Mac؛ ألغِ تفعيل الجهاز القديم قبل الانتقال.
-
-[الخطط والشروط](https://www.telunkey.shop/ar/terms)
 
 <a id="feedback"></a>
 

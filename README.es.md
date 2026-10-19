@@ -11,7 +11,9 @@ Mantén una tecla de activación y pulsa de una a tres teclas para llegar a cual
 [![Última versión](https://img.shields.io/github/v/release/telungit/TelunKey?label=release)](https://github.com/telungit/TelunKey/releases/latest)
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
 
-[Sitio web](https://www.telunkey.shop) · [Instalar](#install) · [Comentarios](#feedback)
+[telunkey.shop](https://www.telunkey.shop)
+
+[Instalar](#install) · [Comentarios](#feedback)
 
 [简体中文](./README.md) | [繁體中文](./README.zh-Hant.md) | [English](./README.en.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | Español | [Português](./README.pt.md) | [हिन्दी](./README.hi.md) | [Русский](./README.ru.md) | [Français](./README.fr.md) | [Deutsch](./README.de.md) | [العربية](./README.ar.md)
 
@@ -73,24 +75,12 @@ Al abrirla por primera vez, un asistente te guía por los permisos, las teclas d
 brew upgrade --cask --greedy telungit/tap/telunkey
 ```
 
-## Permisos y privacidad
+## Permisos
 
 | Permiso | Para qué |
 | --- | --- |
 | Accesibilidad (obligatorio) | Detectar teclas de activación y gestos; cambiar y colocar ventanas |
 | Grabación de pantalla (opcional) | Miniaturas de ventanas; sin él se muestran los iconos de las apps y el cambio sigue funcionando |
-
-TelunKey es local primero y no recopila contenido de pulsaciones de teclas ni telemetría del comportamiento de las ventanas.
-
-Dodo Payments gestiona pagos, correos de compra, claves y activaciones. Al activar se envían la clave y el nombre del dispositivo para gestionar el límite de dos equipos. La clave y el registro local se guardan en el Llavero del sistema. No guardamos tarjetas ni creamos cuentas web.
-
-## Versión gratuita y Actualizaciones de por vida
-
-La versión gratuita permite asignar hasta 5 apps, con todas las funciones, sin límite de tiempo ni cuenta. El plan Actualizaciones de por vida cuesta US$3.99 en un pago único e incluye asignaciones ilimitadas y futuras actualizaciones.
-
-Una vez completado el pago, busca el correo de Dodo Payments con tu clave de licencia e introdúcela en la página Licencia de los ajustes de TelunKey. No hace falta cuenta. Puedes usarlo en 2 Mac; desactiva el antiguo antes de cambiar.
-
-[Planes y condiciones](https://www.telunkey.shop/es/terms)
 
 <a id="feedback"></a>
 

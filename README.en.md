@@ -11,7 +11,9 @@ Hold a trigger key and type one to three keys to reach any app or window. Swipe 
 [![Latest release](https://img.shields.io/github/v/release/telungit/TelunKey?label=release)](https://github.com/telungit/TelunKey/releases/latest)
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
 
-[Website](https://www.telunkey.shop) · [Install](#install) · [Feedback](#feedback)
+[telunkey.shop](https://www.telunkey.shop)
+
+[Install](#install) · [Feedback](#feedback)
 
 [简体中文](./README.md) | [繁體中文](./README.zh-Hant.md) | English | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Español](./README.es.md) | [Português](./README.pt.md) | [हिन्दी](./README.hi.md) | [Русский](./README.ru.md) | [Français](./README.fr.md) | [Deutsch](./README.de.md) | [العربية](./README.ar.md)
 
@@ -73,24 +75,12 @@ On first launch, a setup guide walks you through permissions, trigger keys, shor
 brew upgrade --cask --greedy telungit/tap/telunkey
 ```
 
-## Permissions and privacy
+## Permissions
 
 | Permission | Used for |
 | --- | --- |
 | Accessibility (required) | Detecting trigger keys and gestures; switching and arranging windows |
 | Screen Recording (optional) | Window thumbnails; without it, app icons are shown and switching still works |
-
-TelunKey is local-first and does not collect keystroke content or window behavior telemetry.
-
-Dodo Payments processes payments, purchase emails, license keys and device activations. Activation sends your key and device name to manage the two-device limit. Your key and activation record are stored in the system Keychain. We do not store card details or create website accounts.
-
-## Free and Lifetime Updates
-
-Free supports up to 5 app bindings, with all features included, no time limit and no account required. Lifetime Updates is a single US$3.99 payment for unlimited app bindings and future updates.
-
-Once payment is complete, look for the license key email from Dodo Payments and enter the key on the License page of TelunKey Settings. No account needed. You can use it on 2 Macs; deactivate the old one before switching.
-
-[Plans and terms](https://www.telunkey.shop/en/terms)
 
 <a id="feedback"></a>
 

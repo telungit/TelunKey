@@ -11,7 +11,9 @@ Auslösetaste halten und ein bis drei Tasten tippen, um jede App und jedes Fenst
 [![Neueste Version](https://img.shields.io/github/v/release/telungit/TelunKey?label=release)](https://github.com/telungit/TelunKey/releases/latest)
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
 
-[Website](https://www.telunkey.shop) · [Installation](#install) · [Feedback](#feedback)
+[telunkey.shop](https://www.telunkey.shop)
+
+[Installation](#install) · [Feedback](#feedback)
 
 [简体中文](./README.md) | [繁體中文](./README.zh-Hant.md) | [English](./README.en.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Español](./README.es.md) | [Português](./README.pt.md) | [हिन्दी](./README.hi.md) | [Русский](./README.ru.md) | [Français](./README.fr.md) | Deutsch | [العربية](./README.ar.md)
 
@@ -73,24 +75,12 @@ Beim ersten Start führt dich ein Einrichtungsassistent durch Berechtigungen, Au
 brew upgrade --cask --greedy telungit/tap/telunkey
 ```
 
-## Berechtigungen und Datenschutz
+## Berechtigungen
 
 | Berechtigung | Wofür |
 | --- | --- |
 | Bedienungshilfen (erforderlich) | Auslösetasten und Gesten erkennen; Fenster wechseln und anordnen |
 | Bildschirmaufnahme (optional) | Fenster-Miniaturen; ohne sie werden App-Symbole angezeigt, das Wechseln funktioniert weiterhin |
-
-TelunKey ist lokal und erfasst keine Tastenanschlagsinhalte oder Telemetriedaten zum Fensterverhalten.
-
-Dodo Payments verarbeitet Zahlungen, Kaufadressen, Schlüssel und Aktivierungen. Bei der Aktivierung werden Schlüssel und Gerätename zur Verwaltung des Zwei-Geräte-Limits übermittelt. Schlüssel und lokaler Eintrag liegen im Systemschlüsselbund. Wir speichern keine Kartendaten und erstellen keine Website-Konten.
-
-## Kostenlose Version und Lebenslange Updates
-
-Die kostenlose Version erlaubt bis zu 5 App-Zuweisungen mit allen Funktionen, ohne Zeitlimit und ohne Konto. Der Plan Lebenslange Updates kostet einmalig US$3.99 und umfasst unbegrenzte App-Zuweisungen sowie künftige Updates.
-
-Nach Abschluss der Zahlung findest du den Lizenzschlüssel in der E-Mail von Dodo Payments. Gib ihn auf der Seite „Lizenz“ in den TelunKey-Einstellungen ein. Ein Konto ist nicht nötig. Du kannst TelunKey auf 2 Macs nutzen; deaktiviere den alten Mac vor einem Gerätewechsel.
-
-[Tarife und Bedingungen](https://www.telunkey.shop/de/terms)
 
 <a id="feedback"></a>
 

@@ -11,7 +11,9 @@
 [![最新版本](https://img.shields.io/github/v/release/telungit/TelunKey?label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC)](https://github.com/telungit/TelunKey/releases/latest)
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
 
-[官網](https://www.telunkey.shop) · [安裝](#install) · [意見回饋](#feedback)
+[telunkey.shop](https://www.telunkey.shop)
+
+[安裝](#install) · [意見回饋](#feedback)
 
 [简体中文](./README.md) | 繁體中文 | [English](./README.en.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Español](./README.es.md) | [Português](./README.pt.md) | [हिन्दी](./README.hi.md) | [Русский](./README.ru.md) | [Français](./README.fr.md) | [Deutsch](./README.de.md) | [العربية](./README.ar.md)
 
@@ -73,24 +75,12 @@ brew install --cask telungit/tap/telunkey
 brew upgrade --cask --greedy telungit/tap/telunkey
 ```
 
-## 權限與隱私
+## 權限
 
 | 權限 | 用途 |
 | --- | --- |
 | 輔助使用（必要） | 監聽觸發鍵與手勢，切換、調整視窗 |
 | 螢幕錄製（選用） | 產生視窗縮圖；未授予時顯示應用程式圖示，切換不受影響 |
-
-TelunKey 採本機優先策略，不收集鍵盤輸入內容或視窗行為遙測資料。
-
-Dodo Payments 處理付款、購買信箱、授權碼與裝置啟用記錄；啟用時會傳送授權碼及裝置名稱，以管理兩台裝置的名額。授權碼與本機記錄保存在系統鑰匙圈。TelunKey 不儲存銀行卡資訊，使用時無需註冊網站帳號。
-
-## 免費版與永久更新計畫
-
-免費版最多綁定 5 個應用程式，全部功能可用，不限使用時間，無需註冊。永久更新計畫一次付費 US$3.99，不限綁定數量，包含後續更新。
-
-完成支付後查收 Dodo Payments 寄來的授權碼郵件，在 TelunKey 設定的「授權」頁輸入即可，無需註冊帳號。可在 2 台 Mac 上使用；換機前先在舊裝置上解除綁定。
-
-[方案與條款](https://www.telunkey.shop/zh-hant/terms)
 
 <a id="feedback"></a>
 

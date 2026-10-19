@@ -11,7 +11,9 @@
 [![नवीनतम रिलीज़](https://img.shields.io/github/v/release/telungit/TelunKey?label=release)](https://github.com/telungit/TelunKey/releases/latest)
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
 
-[वेबसाइट](https://www.telunkey.shop) · [इंस्टॉल करें](#install) · [प्रतिक्रिया](#feedback)
+[telunkey.shop](https://www.telunkey.shop)
+
+[इंस्टॉल करें](#install) · [प्रतिक्रिया](#feedback)
 
 [简体中文](./README.md) | [繁體中文](./README.zh-Hant.md) | [English](./README.en.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Español](./README.es.md) | [Português](./README.pt.md) | हिन्दी | [Русский](./README.ru.md) | [Français](./README.fr.md) | [Deutsch](./README.de.md) | [العربية](./README.ar.md)
 
@@ -73,24 +75,12 @@ brew install --cask telungit/tap/telunkey
 brew upgrade --cask --greedy telungit/tap/telunkey
 ```
 
-## अनुमतियाँ और गोपनीयता
+## अनुमतियाँ
 
 | अनुमति | उपयोग |
 | --- | --- |
 | एक्सेसिबिलिटी (आवश्यक) | ट्रिगर कुंजियाँ और जेस्चर पहचानना; विंडो बदलना और व्यवस्थित करना |
 | स्क्रीन रिकॉर्डिंग (वैकल्पिक) | विंडो थंबनेल; इसके बिना ऐप आइकन दिखते हैं और स्विचिंग चलती रहती है |
-
-TelunKey स्थानीय-प्रथम है और कीस्ट्रोक सामग्री या विंडो व्यवहार टेलीमेट्री एकत्र नहीं करता है।
-
-Dodo Payments भुगतान, खरीद ईमेल, लाइसेंस कुंजियाँ और उपकरण सक्रियण संभालता है। सक्रियण पर कुंजी और उपकरण का नाम भेजा जाता है ताकि दो उपकरणों की सीमा लागू हो। कुंजी और स्थानीय रिकॉर्ड सिस्टम Keychain में सुरक्षित रहते हैं। हम कार्ड विवरण नहीं रखते और वेबसाइट खाते नहीं बनाते।
-
-## मुफ़्त संस्करण और आजीवन अपडेट
-
-मुफ़्त संस्करण में अधिकतम 5 ऐप बाइंड किए जा सकते हैं। सभी सुविधाएँ बिना समय सीमा या खाता बनाए उपलब्ध हैं। आजीवन अपडेट का एकमुश्त भुगतान US$3.99 है; इसमें असीमित ऐप बाइंडिंग और भविष्य के अपडेट शामिल हैं।
-
-भुगतान पूरा होने के बाद Dodo Payments का लाइसेंस कुंजी वाला ईमेल देखें और कुंजी TelunKey सेटिंग्स के लाइसेंस पेज पर डालें। खाते की ज़रूरत नहीं। 2 Mac पर इस्तेमाल कर सकते हैं; बदलने से पहले पुराने Mac को निष्क्रिय करें।
-
-[योजनाएँ और शर्तें](https://www.telunkey.shop/hi/terms)
 
 <a id="feedback"></a>
 

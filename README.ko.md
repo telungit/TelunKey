@@ -11,7 +11,9 @@
 [![최신 릴리스](https://img.shields.io/github/v/release/telungit/TelunKey?label=release)](https://github.com/telungit/TelunKey/releases/latest)
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
 
-[웹사이트](https://www.telunkey.shop) · [설치](#install) · [피드백](#feedback)
+[telunkey.shop](https://www.telunkey.shop)
+
+[설치](#install) · [피드백](#feedback)
 
 [简体中文](./README.md) | [繁體中文](./README.zh-Hant.md) | [English](./README.en.md) | [日本語](./README.ja.md) | 한국어 | [Español](./README.es.md) | [Português](./README.pt.md) | [हिन्दी](./README.hi.md) | [Русский](./README.ru.md) | [Français](./README.fr.md) | [Deutsch](./README.de.md) | [العربية](./README.ar.md)
 
@@ -73,24 +75,12 @@ brew install --cask telungit/tap/telunkey
 brew upgrade --cask --greedy telungit/tap/telunkey
 ```
 
-## 권한과 개인정보
+## 권한
 
 | 권한 | 용도 |
 | --- | --- |
 | 손쉬운 사용(필수) | 트리거 키와 제스처 감지, 윈도우 전환과 배치 |
 | 화면 기록(선택) | 윈도우 썸네일 생성. 허용하지 않으면 앱 아이콘을 표시하며 전환은 그대로 동작 |
-
-TelunKey는 로컬 우선 설계를 따르며, 키 입력 내용이나 윈도우 동작 텔레메트리를 수집하지 않습니다.
-
-Dodo Payments가 결제, 구매 이메일, 라이선스 키와 기기 활성화를 처리합니다. 활성화 시 키와 기기 이름을 보내 2대 제한을 관리합니다. 키와 활성화 기록은 시스템 키체인에 저장됩니다. 카드 정보를 저장하거나 웹사이트 계정을 만들지 않습니다.
-
-## 무료 버전과 평생 업데이트 플랜
-
-무료 버전은 앱을 최대 5개까지 할당할 수 있으며, 모든 기능을 시간제한이나 계정 등록 없이 사용할 수 있습니다. 평생 업데이트 플랜은 US$3.99를 한 번 결제하며, 앱 수 제한이 없고 이후 업데이트가 포함됩니다.
-
-결제를 마친 뒤 Dodo Payments에서 보낸 라이선스 키 이메일을 확인하고 TelunKey 설정의 '라이선스' 페이지에 입력하세요. 계정은 필요 없습니다. Mac 2대에서 쓸 수 있으며, 기기를 바꾸기 전에 이전 Mac에서 해제하세요.
-
-[플랜 및 약관](https://www.telunkey.shop/ko/terms)
 
 <a id="feedback"></a>
 
