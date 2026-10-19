@@ -36,6 +36,8 @@ The picker shows every window of the app as a thumbnail. Press a number or lette
 - **Across displays**: carry a global gesture past the edge to move the window to another display, keeping its proportions.
 - Every gesture can be remapped, and a practice mode previews actions without running them.
 
+<p align="center"><img src="./images/en/gestures.png" width="380" alt="Trigger gesture settings" /></p>
+
 ## Native and lightweight
 
 Written in pure Swift with no third-party dependencies, living in the menu bar. Settings stay on your Mac and can be imported or exported; the interface is available in 12 languages.

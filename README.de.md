@@ -36,6 +36,8 @@ Die Auswahl zeigt alle Fenster der App als Miniaturen. Eine Ziffer oder ein Buch
 - **Über Bildschirme hinweg**: Eine globale Geste über den Rand hinausziehen, um das Fenster unter Beibehaltung seiner Proportionen auf einen anderen Bildschirm zu verschieben.
 - Jede Geste lässt sich neu belegen, und ein Übungsmodus zeigt Aktionen nur in der Vorschau, ohne sie auszuführen.
 
+<p align="center"><img src="./images/en/gestures.png" width="380" alt="Einstellungen für Auslösegesten" /></p>
+
 ## Nativ und schlank
 
 Komplett in Swift geschrieben, ohne Abhängigkeiten von Drittanbietern, lebt in der Menüleiste. Einstellungen bleiben auf deinem Mac und lassen sich importieren und exportieren; die Oberfläche gibt es in 12 Sprachen.

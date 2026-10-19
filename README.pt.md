@@ -36,6 +36,8 @@ O seletor mostra todas as janelas do app em miniatura. Pressione um número ou u
 - **Entre monitores**: leve um gesto global além da borda para mover a janela a outro monitor, mantendo as proporções.
 - Todo gesto pode ser reatribuído, e um modo de prática pré-visualiza as ações sem executá-las.
 
+<p align="center"><img src="./images/en/gestures.png" width="380" alt="Ajustes de gestos de ativação" /></p>
+
 ## Nativo e leve
 
 Escrito inteiramente em Swift, sem dependências de terceiros, e fica na barra de menus. As configurações ficam no seu Mac e podem ser importadas e exportadas; a interface está disponível em 12 idiomas.

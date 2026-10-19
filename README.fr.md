@@ -36,6 +36,8 @@ Le sélecteur affiche toutes les fenêtres de l’app en miniatures. Appuyez sur
 - **D’un écran à l’autre** : prolongez un geste global au-delà du bord pour déplacer la fenêtre vers un autre écran en conservant ses proportions.
 - Chaque geste peut être réattribué, et un mode d’entraînement prévisualise les actions sans les exécuter.
 
+<p align="center"><img src="./images/en/gestures.png" width="380" alt="Réglages des gestes de déclenchement" /></p>
+
 ## Natif et léger
 
 Écrit entièrement en Swift, sans dépendance tierce, il réside dans la barre des menus. Les réglages restent sur votre Mac et peuvent être importés ou exportés ; l’interface est disponible en 12 langues.

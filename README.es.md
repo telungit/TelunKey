@@ -36,6 +36,8 @@ El selector muestra todas las ventanas de la app en miniatura. Pulsa un número 
 - **Entre pantallas**: lleva un gesto global más allá del borde para mover la ventana a otra pantalla, manteniendo sus proporciones.
 - Cada gesto se puede reasignar, y un modo de práctica muestra las acciones sin ejecutarlas.
 
+<p align="center"><img src="./images/en/gestures.png" width="380" alt="Ajustes de gestos de activación" /></p>
+
 ## Nativo y ligero
 
 Escrito íntegramente en Swift, sin dependencias de terceros, y vive en la barra de menús. La configuración se guarda en tu Mac y se puede importar y exportar; la interfaz está disponible en 12 idiomas.
