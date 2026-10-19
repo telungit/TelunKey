@@ -4,9 +4,9 @@
 
 # TelunKey
 
-**Reach any window from the keyboard. Arrange it with a swipe.**
+**Window switching for macOS · Keys and trackpad**
 
-Hold one key and type a letter or two to jump to any window of any app. Swipe on the trackpad, and the window falls into place.
+Hold a trigger key and type one to three keys to reach any app or window. Swipe the trackpad to put it in place.
 
 [![Latest release](https://img.shields.io/github/v/release/telungit/TelunKey?label=release)](https://github.com/telungit/TelunKey/releases/latest)
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
@@ -17,28 +17,41 @@ Hold one key and type a letter or two to jump to any window of any app. Swipe on
 
 </div>
 
-## Two or three keys to any app
+## Direct keys
 
-Hold a trigger key (left / right Command, left / right Option, or Space) and type one to three letters. If the app isn't running, it opens; with one window, that window comes forward; with several, a picker appears. While you hold the key, every binding is listed, so there's nothing to memorize.
+Hold a trigger key (left / right Command, left / right Option, or Space) and enter the one to three keys assigned to an app. If the app is not running, it opens; if it has one window, that window gets focus; if it has several, the selector appears. Hold the trigger key to view all bindings.
 
 <img src="./images/en/hint.png" width="100%" alt="Hint menu listing all bindings while the trigger key is held" />
 
-## Pick the right window at a glance
+## Keyboard selector
 
-The picker shows every window of the app as a thumbnail. Press a number or letter to choose one, or Space for the most recently used. When windows are spread across desktops, each card shows which desktop it's on.
+The selector arranges window thumbnails in keyboard order: 1–0, Q–P, A–L, Z–M, with up to 36 windows per page. Press the corresponding number or letter to select a window.
 
-<img src="./images/en/picker.png" width="100%" alt="Window picker with thumbnails" />
+- Space: back to the window you used last
+- Windows on other desktops show which desktop they are on
+- [ and ] change pages, Esc cancels, or just click
 
-## Swipe, and the window falls into place
+<img src="./images/en/picker.png" width="100%" alt="Window selector" />
 
-- **Trigger gestures**: hold the trigger key and swipe on the trackpad to snap the window under the pointer to a half, a quarter, or full screen.
-- **Global gestures**: bind three-finger swipes, taps, or clicks to window actions, keyboard shortcuts, or single keys.
-- **Across displays**: carry a global gesture past the edge to move the window to another display, keeping its proportions.
+## Trigger gestures
+
+Hold the trigger key and swipe two fingers on the trackpad to arrange the window under the pointer to fill half or a quarter of the screen, or to maximize it.
+
+- Up, down, left, right: halves. Four diagonals: quarters
+- Up then down without lifting: maximize, keeping the menu bar and Dock
+- Slide into the cancel zone to cancel, slide back to choose again
+
+### Three-finger gestures
+
+Once enabled, eight directions, back-and-forth swipes, tap, double tap, long touch and press can each send a shortcut, a single key, a middle click, or a window action.
+
+- Off by default. If it conflicts with a system three-finger gesture, Settings lists it and links to the fix
+- Across displays: continue a three-finger gesture outward past the cancel zone to move the window to another display, keeping its proportions.
 - Every gesture can be remapped, and a practice mode previews actions without running them.
 
 <p align="center"><img src="./images/en/gestures.png" width="380" alt="Trigger gesture settings" /></p>
 
-## Native and lightweight
+## Runtime and settings
 
 Written in pure Swift with no third-party dependencies, living in the menu bar. Settings stay on your Mac and can be imported or exported; the interface is available in 12 languages.
 
@@ -67,11 +80,17 @@ brew upgrade --cask --greedy telungit/tap/telunkey
 | Accessibility (required) | Detecting trigger keys and gestures; switching and arranging windows |
 | Screen Recording (optional) | Window thumbnails; without it, app icons are shown and switching still works |
 
-Settings are stored on your Mac, and the license credential is kept in the Keychain. TelunKey goes online only to verify your license and check for updates, and collects no usage data.
+TelunKey is local-first and does not collect keystroke content or window behavior telemetry.
 
-## Free and licensed
+Dodo Payments processes payments, purchase emails, license keys and device activations. Activation sends your key and device name to manage the two-device limit. Your key and activation record are stored in the system Keychain. We do not store card details or create website accounts.
 
-The free version lets you bind up to 5 apps, with every other feature included. A lifetime license from the [website](https://www.telunkey.shop) removes the limit.
+## Free and Lifetime Updates
+
+Free supports up to 5 app bindings, with all features included, no time limit and no account required. Lifetime Updates is a single US$3.99 payment for unlimited app bindings and future updates.
+
+Once payment is complete, look for the license key email from Dodo Payments and enter the key on the License page of TelunKey Settings. No account needed. You can use it on 2 Macs; deactivate the old one before switching.
+
+[Plans and terms](https://www.telunkey.shop/en/terms)
 
 <a id="feedback"></a>
 

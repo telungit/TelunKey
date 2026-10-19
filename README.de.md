@@ -4,9 +4,9 @@
 
 # TelunKey
 
-**Per Tastatur zu jedem Fenster. Per Geste an seinen Platz.**
+**Fensterwechsel für macOS · Tastatur und Trackpad**
 
-Eine Taste halten, ein oder zwei Buchstaben tippen – schon bist du bei jedem Fenster jeder App. Einmal über das Trackpad wischen, und das Fenster sitzt.
+Auslösetaste halten und ein bis drei Tasten tippen, um jede App und jedes Fenster zu erreichen. Mit einer Wischgeste auf dem Trackpad platzieren.
 
 [![Neueste Version](https://img.shields.io/github/v/release/telungit/TelunKey?label=release)](https://github.com/telungit/TelunKey/releases/latest)
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
@@ -17,30 +17,43 @@ Eine Taste halten, ein oder zwei Buchstaben tippen – schon bist du bei jedem F
 
 </div>
 
-## Zwei, drei Tasten bis zu jeder App
+## Direkte Tasten
 
-Halte eine Auslösetaste (linke / rechte Befehlstaste, linke / rechte Wahltaste oder Leertaste) und tippe ein bis drei Buchstaben. Läuft die App nicht, wird sie geöffnet; hat sie ein Fenster, kommt es nach vorn; hat sie mehrere, erscheint eine Auswahl. Solange du die Taste hältst, werden alle Zuweisungen angezeigt – nichts muss auswendig gelernt werden.
+Halte eine Auslösetaste (linke / rechte Befehlstaste, linke / rechte Wahltaste oder Leertaste) und drücke die ein bis drei Tasten, die einer App zugewiesen sind. Läuft die App nicht, wird sie geöffnet; ein Fenster kommt nach vorn; bei mehreren erscheint die Auswahl. Solange die Auslösetaste gehalten wird, sind alle Zuweisungen sichtbar.
 
 <img src="./images/en/hint.png" width="100%" alt="Hinweismenü mit allen Zuweisungen bei gehaltener Auslösetaste" />
 
-## Das richtige Fenster auf einen Blick
+## Tastatur-Auswahl
 
-Die Auswahl zeigt alle Fenster der App als Miniaturen. Eine Ziffer oder ein Buchstabe wählt ein Fenster, die Leertaste das zuletzt benutzte. Sind die Fenster auf mehrere Schreibtische verteilt, zeigt jede Karte, auf welchem es liegt.
+Die Auswahl ordnet Fensterminiaturen wie die Tastatur an: 1–0, Q–P, A–L, Z–M, mit bis zu 36 Fenstern pro Seite. Die entsprechende Ziffer oder der Buchstabe wählt ein Fenster aus.
 
-<img src="./images/en/picker.png" width="100%" alt="Fensterauswahl mit Miniaturen" />
+- Leertaste: zurück zum zuletzt genutzten Fenster
+- Fenster auf anderen Schreibtischen zeigen ihren Schreibtisch
+- [ und ] blättern, Esc bricht ab – oder einfach klicken
 
-## Wischen, und das Fenster sitzt
+<img src="./images/en/picker.png" width="100%" alt="Fensterauswahl" />
 
-- **Auslösegesten**: Auslösetaste halten und über das Trackpad wischen, um das Fenster unter dem Zeiger auf eine Hälfte, ein Viertel oder den ganzen Bildschirm zu legen.
-- **Globale Gesten**: Wischen, Tippen oder Klicken mit drei Fingern mit Fensteraktionen, Tastenkürzeln oder einzelnen Tasten belegen.
-- **Über Bildschirme hinweg**: Eine globale Geste über den Rand hinausziehen, um das Fenster unter Beibehaltung seiner Proportionen auf einen anderen Bildschirm zu verschieben.
+## Auslösegesten
+
+Halte die Auslösetaste und wische mit zwei Fingern über das Trackpad, um das Fenster unter dem Zeiger auf einer Hälfte oder einem Viertel des Bildschirms anzuordnen oder es zu maximieren.
+
+- Hoch, runter, links, rechts: Hälften. Vier Diagonalen: Viertel
+- Hoch und wieder runter ohne abzusetzen: maximieren, Menüleiste und Dock bleiben
+- In die Abbruchzone wischen bricht ab, zurückwischen wählt neu
+
+### Drei-Finger-Gesten
+
+Einmal aktiviert, können acht Richtungen, Hin-und-zurück-Wischen, Tippen, Doppeltippen, langes Berühren und Klicken jeweils ein Tastenkürzel, eine einzelne Taste, einen Mittelklick oder eine Fensteraktion senden.
+
+- Standardmäßig aus. Bei Konflikten mit einer System-Drei-Finger-Geste zeigen die Einstellungen sie an und verlinken zur Lösung
+- Zwischen Bildschirmen: Führe eine Drei-Finger-Geste über den Abbruchbereich hinaus nach außen fort, um das Fenster unter Beibehaltung seiner Proportionen auf einen anderen Bildschirm zu verschieben.
 - Jede Geste lässt sich neu belegen, und ein Übungsmodus zeigt Aktionen nur in der Vorschau, ohne sie auszuführen.
 
 <p align="center"><img src="./images/en/gestures.png" width="380" alt="Einstellungen für Auslösegesten" /></p>
 
-## Nativ und schlank
+## Betrieb und Einstellungen
 
-Komplett in Swift geschrieben, ohne Abhängigkeiten von Drittanbietern, lebt in der Menüleiste. Einstellungen bleiben auf deinem Mac und lassen sich importieren und exportieren; die Oberfläche gibt es in 12 Sprachen.
+TelunKey ist in Swift geschrieben, hat keine Abhängigkeiten von Drittanbietern und läuft in der Menüleiste. Einstellungen bleiben auf deinem Mac und lassen sich importieren und exportieren; die Oberfläche gibt es in 12 Sprachen.
 
 https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 
@@ -67,11 +80,17 @@ brew upgrade --cask --greedy telungit/tap/telunkey
 | Bedienungshilfen (erforderlich) | Auslösetasten und Gesten erkennen; Fenster wechseln und anordnen |
 | Bildschirmaufnahme (optional) | Fenster-Miniaturen; ohne sie werden App-Symbole angezeigt, das Wechseln funktioniert weiterhin |
 
-Einstellungen werden auf deinem Mac gespeichert, die Lizenzdaten im Schlüsselbund. TelunKey geht nur online, um die Lizenz zu prüfen und nach Updates zu suchen, und sammelt keine Nutzungsdaten.
+TelunKey ist lokal und erfasst keine Tastenanschlagsinhalte oder Telemetriedaten zum Fensterverhalten.
 
-## Kostenlos und lizenziert
+Dodo Payments verarbeitet Zahlungen, Kaufadressen, Schlüssel und Aktivierungen. Bei der Aktivierung werden Schlüssel und Gerätename zur Verwaltung des Zwei-Geräte-Limits übermittelt. Schlüssel und lokaler Eintrag liegen im Systemschlüsselbund. Wir speichern keine Kartendaten und erstellen keine Website-Konten.
 
-Die kostenlose Version erlaubt bis zu 5 zugewiesene Apps, alle anderen Funktionen sind enthalten. Eine dauerhafte Lizenz über die [Website](https://www.telunkey.shop) hebt die Grenze auf.
+## Kostenlose Version und Lebenslange Updates
+
+Die kostenlose Version erlaubt bis zu 5 App-Zuweisungen mit allen Funktionen, ohne Zeitlimit und ohne Konto. Der Plan Lebenslange Updates kostet einmalig US$3.99 und umfasst unbegrenzte App-Zuweisungen sowie künftige Updates.
+
+Nach Abschluss der Zahlung findest du den Lizenzschlüssel in der E-Mail von Dodo Payments. Gib ihn auf der Seite „Lizenz“ in den TelunKey-Einstellungen ein. Ein Konto ist nicht nötig. Du kannst TelunKey auf 2 Macs nutzen; deaktiviere den alten Mac vor einem Gerätewechsel.
+
+[Tarife und Bedingungen](https://www.telunkey.shop/de/terms)
 
 <a id="feedback"></a>
 

@@ -4,9 +4,9 @@
 
 # TelunKey
 
-**Atteignez n’importe quelle fenêtre au clavier. Placez-la d’un geste.**
+**Changement de fenêtre pour macOS · Clavier et trackpad**
 
-Maintenez une touche et tapez une ou deux lettres pour aller droit à n’importe quelle fenêtre de n’importe quelle app. Un glissement sur le trackpad, et la fenêtre se met en place.
+Maintenez une touche de déclenchement et tapez une à trois touches pour atteindre n'importe quelle app ou fenêtre. Balayez le trackpad pour la placer.
 
 [![Dernière version](https://img.shields.io/github/v/release/telungit/TelunKey?label=release)](https://github.com/telungit/TelunKey/releases/latest)
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
@@ -17,28 +17,41 @@ Maintenez une touche et tapez une ou deux lettres pour aller droit à n’import
 
 </div>
 
-## Deux ou trois touches jusqu’à n’importe quelle app
+## Touches directes
 
-Maintenez une touche de déclenchement (Commande gauche / droite, Option gauche / droite ou Espace) et tapez une à trois lettres. Si l’app n’est pas ouverte, elle s’ouvre ; avec une seule fenêtre, celle-ci passe au premier plan ; avec plusieurs, un sélecteur apparaît. Tant que la touche est maintenue, tous les raccourcis s’affichent : rien à mémoriser.
+Maintenez une touche de déclenchement (Commande gauche / droite, Option gauche / droite ou Espace) et saisissez les touches attribuées à une app (une à trois). Si elle est fermée, elle s’ouvre ; avec une fenêtre, celle-ci passe au premier plan ; avec plusieurs, le sélecteur apparaît. Les attributions restent visibles tant que la touche de déclenchement est maintenue.
 
 <img src="./images/en/hint.png" width="100%" alt="Menu d’aide listant tous les raccourcis pendant que la touche de déclenchement est maintenue" />
 
-## Choisir la bonne fenêtre d’un coup d’œil
+## Sélecteur au clavier
 
-Le sélecteur affiche toutes les fenêtres de l’app en miniatures. Appuyez sur un chiffre ou une lettre pour en choisir une, ou sur Espace pour la plus récemment utilisée. Lorsque les fenêtres sont réparties sur plusieurs bureaux, chaque carte indique le bureau concerné.
+Le sélecteur dispose les miniatures dans l’ordre du clavier : 1–0, Q–P, A–L, Z–M, avec jusqu’à 36 fenêtres par page. Appuyez sur le chiffre ou la lettre correspondant à la fenêtre.
 
-<img src="./images/en/picker.png" width="100%" alt="Sélecteur de fenêtres avec miniatures" />
+- Espace : retour à la dernière fenêtre utilisée
+- Les fenêtres d'autres bureaux indiquent leur bureau
+- [ et ] changent de page, Échap annule, ou cliquez simplement
 
-## Un glissement, et la fenêtre se met en place
+<img src="./images/en/picker.png" width="100%" alt="Sélecteur de fenêtres" />
 
-- **Gestes de déclenchement** : maintenez la touche de déclenchement et glissez sur le trackpad pour placer la fenêtre sous le pointeur sur une moitié, un quart ou tout l’écran.
-- **Gestes globaux** : associez balayages, touchers ou clics à trois doigts à des actions de fenêtre, des raccourcis clavier ou des touches seules.
-- **D’un écran à l’autre** : prolongez un geste global au-delà du bord pour déplacer la fenêtre vers un autre écran en conservant ses proportions.
+## Gestes de déclenchement
+
+Maintenez la touche de déclenchement et balayez le trackpad à deux doigts pour placer la fenêtre sous le pointeur sur une moitié, un quart de l’écran, ou l’agrandir.
+
+- Haut, bas, gauche, droite : moitiés. Quatre diagonales : quarts
+- Haut puis bas sans lever les doigts : agrandir, en gardant la barre des menus et le Dock
+- Entrez dans la zone d'annulation pour annuler ; revenez pour choisir à nouveau
+
+### Gestes à trois doigts
+
+Une fois activés, huit directions, allers-retours, toucher, double toucher, toucher long et clic peuvent chacun envoyer un raccourci, une touche seule, un clic central ou une action de fenêtre.
+
+- Désactivés par défaut. En cas de conflit avec un geste système à trois doigts, les réglages l'indiquent et mènent à la solution
+- D’un écran à l’autre : poursuivez le geste à trois doigts vers l’extérieur, au-delà de la zone d’annulation, pour déplacer la fenêtre vers un autre écran en conservant ses proportions.
 - Chaque geste peut être réattribué, et un mode d’entraînement prévisualise les actions sans les exécuter.
 
 <p align="center"><img src="./images/en/gestures.png" width="380" alt="Réglages des gestes de déclenchement" /></p>
 
-## Natif et léger
+## Fonctionnement et réglages
 
 Écrit entièrement en Swift, sans dépendance tierce, il réside dans la barre des menus. Les réglages restent sur votre Mac et peuvent être importés ou exportés ; l’interface est disponible en 12 langues.
 
@@ -67,11 +80,17 @@ brew upgrade --cask --greedy telungit/tap/telunkey
 | Accessibilité (requise) | Détecter les touches de déclenchement et les gestes ; changer de fenêtre et la placer |
 | Enregistrement de l’écran (facultatif) | Miniatures des fenêtres ; sans elle, les icônes des apps s’affichent et le changement fonctionne toujours |
 
-Les réglages sont stockés sur votre Mac et l’identifiant de licence dans le trousseau. TelunKey ne se connecte à Internet que pour vérifier la licence et rechercher des mises à jour, et ne collecte aucune donnée d’utilisation.
+TelunKey est d'abord local et ne collecte pas le contenu des frappes au clavier ni la télémétrie du comportement des fenêtres.
 
-## Gratuit et sous licence
+Dodo Payments gère les paiements, les adresses d’achat, les clés et les activations. L’activation transmet la clé et le nom de l’appareil pour gérer la limite de deux Mac. La clé et l’enregistrement local sont stockés dans le Trousseau du système. Nous ne conservons pas les cartes et ne créons pas de comptes sur le site.
 
-La version gratuite permet d’associer jusqu’à 5 apps, toutes les autres fonctions étant incluses. Une licence à vie sur le [site web](https://www.telunkey.shop) lève cette limite.
+## Version gratuite et Mises à jour à vie
+
+La version gratuite permet d’attribuer jusqu’à 5 apps, avec toutes les fonctions, sans limite de durée ni compte. La formule Mises à jour à vie coûte US$3.99 en un seul paiement et comprend un nombre illimité d’apps ainsi que les futures mises à jour.
+
+Une fois le paiement effectué, cherchez l'e-mail de Dodo Payments contenant la clé de licence et saisissez-la dans la page Licence des réglages de TelunKey. Aucun compte n'est requis. Utilisable sur 2 Mac ; désactivez l'ancien avant de changer.
+
+[Formules et conditions](https://www.telunkey.shop/fr/terms)
 
 <a id="feedback"></a>
 

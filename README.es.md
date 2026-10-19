@@ -4,9 +4,9 @@
 
 # TelunKey
 
-**Llega a cualquier ventana con el teclado. Colócala con un gesto.**
+**Cambio de ventanas para macOS · Teclado y trackpad**
 
-Mantén pulsada una tecla y escribe una o dos letras para ir directo a cualquier ventana de cualquier app. Desliza en el trackpad y la ventana queda en su sitio.
+Mantén una tecla de activación y pulsa de una a tres teclas para llegar a cualquier app o ventana. Desliza en el trackpad para colocarla.
 
 [![Última versión](https://img.shields.io/github/v/release/telungit/TelunKey?label=release)](https://github.com/telungit/TelunKey/releases/latest)
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
@@ -17,28 +17,41 @@ Mantén pulsada una tecla y escribe una o dos letras para ir directo a cualquier
 
 </div>
 
-## Dos o tres teclas hasta cualquier app
+## Teclas directas
 
-Mantén pulsada una tecla de activación (Command izquierda / derecha, Option izquierda / derecha o Espacio) y escribe de una a tres letras. Si la app no está abierta, se abre; si tiene una ventana, pasa al frente; si tiene varias, aparece un selector. Mientras mantienes la tecla se muestran todas las asignaciones, así que no hay nada que memorizar.
+Mantén pulsada una tecla de activación (Command izquierda / derecha, Option izquierda / derecha o Espacio) e introduce de una a tres teclas asignadas a una app. Si no está abierta, se abre; si tiene una ventana, pasa al frente; si tiene varias, aparece el selector. Las asignaciones se muestran mientras mantienes la tecla de activación.
 
 <img src="./images/en/hint.png" width="100%" alt="Menú de ayuda con todas las asignaciones al mantener la tecla de activación" />
 
-## Elige la ventana de un vistazo
+## Selector de teclado
 
-El selector muestra todas las ventanas de la app en miniatura. Pulsa un número o una letra para elegir una, o Espacio para la usada más recientemente. Si las ventanas están repartidas en varios escritorios, cada tarjeta indica en cuál está.
+El selector ordena las miniaturas como el teclado: 1–0, Q–P, A–L, Z–M, con hasta 36 ventanas por página. Pulsa el número o la letra correspondiente para elegir una ventana.
 
-<img src="./images/en/picker.png" width="100%" alt="Selector de ventanas con miniaturas" />
+- Espacio: vuelve a la última ventana usada
+- Las ventanas de otros escritorios indican en cuál están
+- [ y ] cambian de página, Esc cancela, o simplemente haz clic
 
-## Desliza y la ventana queda en su sitio
+<img src="./images/en/picker.png" width="100%" alt="Selector de ventanas" />
 
-- **Gestos de activación**: mantén la tecla de activación y desliza en el trackpad para llevar la ventana bajo el puntero a media pantalla, un cuarto o pantalla completa.
-- **Gestos globales**: asigna deslizamientos, toques o clics con tres dedos a acciones de ventana, atajos de teclado o teclas sueltas.
-- **Entre pantallas**: lleva un gesto global más allá del borde para mover la ventana a otra pantalla, manteniendo sus proporciones.
+## Gestos de activación
+
+Mantén pulsada la tecla de activación y desliza dos dedos en el trackpad para colocar la ventana bajo el puntero en media pantalla, un cuarto o maximizada.
+
+- Arriba, abajo, izquierda, derecha: mitades. Cuatro diagonales: cuartos
+- Arriba y luego abajo sin levantar: maximizar, conservando la barra de menús y el Dock
+- Entra en la zona de cancelación para cancelar; vuelve para elegir otra vez
+
+### Gestos de tres dedos
+
+Al activarlos, ocho direcciones, idas y vueltas, toque, doble toque, toque largo y clic pueden enviar un atajo, una sola tecla, un clic central o una acción de ventana.
+
+- Desactivados por defecto. Si chocan con un gesto de tres dedos del sistema, Ajustes lo indica y enlaza a la solución
+- Entre pantallas: continúa un gesto de tres dedos hacia fuera, más allá de la zona de cancelación, para mover la ventana a otra pantalla conservando sus proporciones.
 - Cada gesto se puede reasignar, y un modo de práctica muestra las acciones sin ejecutarlas.
 
 <p align="center"><img src="./images/en/gestures.png" width="380" alt="Ajustes de gestos de activación" /></p>
 
-## Nativo y ligero
+## Funcionamiento y configuración
 
 Escrito íntegramente en Swift, sin dependencias de terceros, y vive en la barra de menús. La configuración se guarda en tu Mac y se puede importar y exportar; la interfaz está disponible en 12 idiomas.
 
@@ -67,11 +80,17 @@ brew upgrade --cask --greedy telungit/tap/telunkey
 | Accesibilidad (obligatorio) | Detectar teclas de activación y gestos; cambiar y colocar ventanas |
 | Grabación de pantalla (opcional) | Miniaturas de ventanas; sin él se muestran los iconos de las apps y el cambio sigue funcionando |
 
-La configuración se guarda en tu Mac y la credencial de licencia, en el llavero. TelunKey solo se conecta a internet para verificar la licencia y buscar actualizaciones, y no recopila datos de uso.
+TelunKey es local primero y no recopila contenido de pulsaciones de teclas ni telemetría del comportamiento de las ventanas.
 
-## Gratis y con licencia
+Dodo Payments gestiona pagos, correos de compra, claves y activaciones. Al activar se envían la clave y el nombre del dispositivo para gestionar el límite de dos equipos. La clave y el registro local se guardan en el Llavero del sistema. No guardamos tarjetas ni creamos cuentas web.
 
-La versión gratuita permite asignar hasta 5 apps, con todas las demás funciones incluidas. Una licencia permanente del [sitio web](https://www.telunkey.shop) elimina el límite.
+## Versión gratuita y Actualizaciones de por vida
+
+La versión gratuita permite asignar hasta 5 apps, con todas las funciones, sin límite de tiempo ni cuenta. El plan Actualizaciones de por vida cuesta US$3.99 en un pago único e incluye asignaciones ilimitadas y futuras actualizaciones.
+
+Una vez completado el pago, busca el correo de Dodo Payments con tu clave de licencia e introdúcela en la página Licencia de los ajustes de TelunKey. No hace falta cuenta. Puedes usarlo en 2 Mac; desactiva el antiguo antes de cambiar.
+
+[Planes y condiciones](https://www.telunkey.shop/es/terms)
 
 <a id="feedback"></a>
 
