@@ -1,58 +1,79 @@
+<div align="center">
+
+<img src="./images/icon.png" width="112" alt="TelunKey icon" />
+
 # TelunKey
-[简体中文](./README.md) | [繁體中文](./README.zh-Hant.md) | [English](./README.en.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Español](./README.es.md) | [Português](./README.pt.md) | [हिन्दी](./README.hi.md) | [Русский](./README.ru.md) | [Français](./README.fr.md) | [Deutsch](./README.de.md) | [العربية](./README.ar.md)
 
-TelunKey is a native macOS shortcut launcher that completes app activation and window selection in a single key flow.
+**Reach any window from the keyboard. Arrange it with a swipe.**
 
-- Built with native Swift for rapid response, low resource footprint, and minimal distraction
-- Supports Left/Right Command (zero or custom delay), Left/Right Option (zero or custom delay), and Space trigger (minimum 0.2s delay to avoid disrupting daily typing)
-- Optimized for high-frequency workflows with seamless window switching
-- Local-first by design, with no reliance on cloud behavioral analytics by default
+Hold one key and type a letter or two to jump to any window of any app. Swipe on the trackpad, and the window falls into place.
 
-## Website
+[![Latest release](https://img.shields.io/github/v/release/telungit/TelunKey?label=release)](https://github.com/telungit/TelunKey/releases/latest)
+![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
 
-- Homepage: https://www.telunkey.shop
+[Website](https://www.telunkey.shop) · [Install](#install) · [Feedback](#feedback)
 
-## UI Preview
+[简体中文](./README.md) | [繁體中文](./README.zh-Hant.md) | English | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Español](./README.es.md) | [Português](./README.pt.md) | [हिन्दी](./README.hi.md) | [Русский](./README.ru.md) | [Français](./README.fr.md) | [Deutsch](./README.de.md) | [العربية](./README.ar.md)
+
+</div>
+
+## Two or three keys to any app
+
+Hold a trigger key (left / right Command, left / right Option, or Space) and type one to three letters. If the app isn't running, it opens; with one window, that window comes forward; with several, a picker appears. While you hold the key, every binding is listed, so there's nothing to memorize.
+
+<img src="./images/en/hint.png" width="100%" alt="Hint menu listing all bindings while the trigger key is held" />
+
+## Pick the right window at a glance
+
+The picker shows every window of the app as a thumbnail. Press a number or letter to choose one, or Space for the most recently used. When windows are spread across desktops, each card shows which desktop it's on.
+
+<img src="./images/en/picker.png" width="100%" alt="Window picker with thumbnails" />
+
+## Swipe, and the window falls into place
+
+- **Trigger gestures**: hold the trigger key and swipe on the trackpad to snap the window under the pointer to a half, a quarter, or full screen.
+- **Global gestures**: bind three-finger swipes, taps, or clicks to window actions, keyboard shortcuts, or single keys.
+- **Across displays**: carry a global gesture past the edge to move the window to another display, keeping its proportions.
+- Every gesture can be remapped, and a practice mode previews actions without running them.
+
+## Native and lightweight
+
+Written in pure Swift with no third-party dependencies, living in the menu bar. Settings stay on your Mac and can be imported or exported; the interface is available in 12 languages.
 
 https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 
-<img alt="Trigger hint" src="./images/datishi.png?v=20260329" width="100%" />
-<img alt="Chrome scenario" src="./images/chrome.png?v=20260329" width="100%" />
-<img alt="Settings" src="./images/shezhi.png?v=20260329" width="100%" />
+<a id="install"></a>
 
-## System Requirements
+## Get started
 
-- macOS 14.0 or later
-
-## Installation
-
-Users with [Homebrew](https://brew.sh/) installed can run:
+Requires macOS 14 or later and [Homebrew](https://brew.sh/):
 
 ```bash
 brew install --cask telungit/tap/telunkey
 ```
 
-After installation, open TelunKey from Applications.
-
-## Update
+On first launch, a setup guide walks you through permissions, trigger keys, shortcuts, and gestures. Update from within the app, or run:
 
 ```bash
 brew upgrade --cask --greedy telungit/tap/telunkey
 ```
 
-You can also check for updates directly within the app.
+## Permissions and privacy
 
-## Permissions
+| Permission | Used for |
+| --- | --- |
+| Accessibility (required) | Detecting trigger keys and gestures; switching and arranging windows |
+| Screen Recording (optional) | Window thumbnails; without it, app icons are shown and switching still works |
 
-TelunKey requires the following permissions for full functionality:
+Settings are stored on your Mac, and the license credential is kept in the Keychain. TelunKey goes online only to verify your license and check for updates, and collects no usage data.
 
-- Accessibility: listen to global keyboard events
-- Screen Recording: generate window thumbnails
+## Free and licensed
 
-## Privacy
+The free version lets you bind up to 5 apps, with every other feature included. A lifetime license from the [website](https://www.telunkey.shop) removes the limit.
 
-TelunKey follows a local-first strategy. Core data stays on your machine.
+<a id="feedback"></a>
 
 ## Feedback
 
-- Telegram: https://t.me/telungram
+- [GitHub Issues](https://github.com/telungit/TelunKey/issues)
+- [Telegram](https://t.me/telungram)

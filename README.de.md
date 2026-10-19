@@ -1,58 +1,79 @@
+<div align="center">
+
+<img src="./images/icon.png" width="112" alt="TelunKey-Symbol" />
+
 # TelunKey
-[简体中文](./README.md) | [繁體中文](./README.zh-Hant.md) | [English](./README.en.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Español](./README.es.md) | [Português](./README.pt.md) | [हिन्दी](./README.hi.md) | [Русский](./README.ru.md) | [Français](./README.fr.md) | [Deutsch](./README.de.md) | [العربية](./README.ar.md)
 
-TelunKey ist ein nativer macOS-Shortcut-Launcher, mit dem App-Aktivierung und Fensterauswahl in einer Tastenfolge erledigt werden.
+**Per Tastatur zu jedem Fenster. Per Geste an seinen Platz.**
 
-- Entwickelt mit nativem Swift für schnelle Reaktion, geringen Overhead und minimale Unterbrechung
-- Unterstützt linken/rechten Command (0 Verzögerung oder benutzerdefiniert), linken/rechten Option (0 Verzögerung oder benutzerdefiniert) sowie Space-Trigger (mindestens 0,2 Sekunden Verzögerung, damit normales Tippen nicht beeinträchtigt wird)
-- Optimiert für hochfrequente Workflows und flüssigeres Umschalten zwischen Fenstern
-- Local-first Design, ohne standardmäßige Abhängigkeit von Cloud-Verhaltensanalysen
+Eine Taste halten, ein oder zwei Buchstaben tippen – schon bist du bei jedem Fenster jeder App. Einmal über das Trackpad wischen, und das Fenster sitzt.
 
-## Website
+[![Neueste Version](https://img.shields.io/github/v/release/telungit/TelunKey?label=release)](https://github.com/telungit/TelunKey/releases/latest)
+![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
 
-- Homepage: https://www.telunkey.shop
+[Website](https://www.telunkey.shop) · [Installation](#install) · [Feedback](#feedback)
 
-## UI-Vorschau
+[简体中文](./README.md) | [繁體中文](./README.zh-Hant.md) | [English](./README.en.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Español](./README.es.md) | [Português](./README.pt.md) | [हिन्दी](./README.hi.md) | [Русский](./README.ru.md) | [Français](./README.fr.md) | Deutsch | [العربية](./README.ar.md)
+
+</div>
+
+## Zwei, drei Tasten bis zu jeder App
+
+Halte eine Auslösetaste (linke / rechte Befehlstaste, linke / rechte Wahltaste oder Leertaste) und tippe ein bis drei Buchstaben. Läuft die App nicht, wird sie geöffnet; hat sie ein Fenster, kommt es nach vorn; hat sie mehrere, erscheint eine Auswahl. Solange du die Taste hältst, werden alle Zuweisungen angezeigt – nichts muss auswendig gelernt werden.
+
+<img src="./images/en/hint.png" width="100%" alt="Hinweismenü mit allen Zuweisungen bei gehaltener Auslösetaste" />
+
+## Das richtige Fenster auf einen Blick
+
+Die Auswahl zeigt alle Fenster der App als Miniaturen. Eine Ziffer oder ein Buchstabe wählt ein Fenster, die Leertaste das zuletzt benutzte. Sind die Fenster auf mehrere Schreibtische verteilt, zeigt jede Karte, auf welchem es liegt.
+
+<img src="./images/en/picker.png" width="100%" alt="Fensterauswahl mit Miniaturen" />
+
+## Wischen, und das Fenster sitzt
+
+- **Auslösegesten**: Auslösetaste halten und über das Trackpad wischen, um das Fenster unter dem Zeiger auf eine Hälfte, ein Viertel oder den ganzen Bildschirm zu legen.
+- **Globale Gesten**: Wischen, Tippen oder Klicken mit drei Fingern mit Fensteraktionen, Tastenkürzeln oder einzelnen Tasten belegen.
+- **Über Bildschirme hinweg**: Eine globale Geste über den Rand hinausziehen, um das Fenster unter Beibehaltung seiner Proportionen auf einen anderen Bildschirm zu verschieben.
+- Jede Geste lässt sich neu belegen, und ein Übungsmodus zeigt Aktionen nur in der Vorschau, ohne sie auszuführen.
+
+## Nativ und schlank
+
+Komplett in Swift geschrieben, ohne Abhängigkeiten von Drittanbietern, lebt in der Menüleiste. Einstellungen bleiben auf deinem Mac und lassen sich importieren und exportieren; die Oberfläche gibt es in 12 Sprachen.
 
 https://github.com/user-attachments/assets/bf6afeee-3813-410c-87db-9696f364cea7
 
-<img alt="Trigger-Hinweis" src="./images/datishi.png?v=20260329" width="100%" />
-<img alt="Chrome-Szenario" src="./images/chrome.png?v=20260329" width="100%" />
-<img alt="Einstellungsfenster" src="./images/shezhi.png?v=20260329" width="100%" />
+<a id="install"></a>
 
-## Systemanforderungen
+## Loslegen
 
-- macOS 14.0 oder höher
-
-## Installation
-
-Benutzer mit installiertem [Homebrew](https://brew.sh/) können folgenden Befehl ausführen:
+Benötigt macOS 14 oder neuer sowie [Homebrew](https://brew.sh/):
 
 ```bash
 brew install --cask telungit/tap/telunkey
 ```
 
-Öffnen Sie TelunKey nach der Installation über „Programme“.
-
-## Aktualisierung
+Beim ersten Start führt dich ein Einrichtungsassistent durch Berechtigungen, Auslösetasten, Kürzel und Gesten. Aktualisieren kannst du direkt in der App oder mit:
 
 ```bash
 brew upgrade --cask --greedy telungit/tap/telunkey
 ```
 
-Sie können Updates auch direkt in der App suchen.
+## Berechtigungen und Datenschutz
 
-## Berechtigungen
+| Berechtigung | Wofür |
+| --- | --- |
+| Bedienungshilfen (erforderlich) | Auslösetasten und Gesten erkennen; Fenster wechseln und anordnen |
+| Bildschirmaufnahme (optional) | Fenster-Miniaturen; ohne sie werden App-Symbole angezeigt, das Wechseln funktioniert weiterhin |
 
-Für die volle Funktionalität benötigt TelunKey die folgenden Berechtigungen:
+Einstellungen werden auf deinem Mac gespeichert, die Lizenzdaten im Schlüsselbund. TelunKey geht nur online, um die Lizenz zu prüfen und nach Updates zu suchen, und sammelt keine Nutzungsdaten.
 
-- Bedienungshilfen: globale Tastaturereignisse erfassen
-- Bildschirmaufzeichnung: Fenster-Miniaturansichten generieren
+## Kostenlos und lizenziert
 
-## Datenschutz
+Die kostenlose Version erlaubt bis zu 5 zugewiesene Apps, alle anderen Funktionen sind enthalten. Eine dauerhafte Lizenz über die [Website](https://www.telunkey.shop) hebt die Grenze auf.
 
-TelunKey verfolgt eine Local-First-Strategie. Kerndaten bleiben auf Ihrem Computer.
+<a id="feedback"></a>
 
-## Rückmeldung
+## Feedback
 
-- Telegram: https://t.me/telungram
+- [GitHub Issues](https://github.com/telungit/TelunKey/issues)
+- [Telegram](https://t.me/telungram)
