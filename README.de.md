@@ -47,23 +47,17 @@ Halte die Auslösetaste und wische mit den aktivierten ein, zwei oder drei Finge
 
 ## Globale Gesten mit drei und vier Fingern
 
-Ohne Auslösetaste. Drei-Finger-Wisch- und Umkehrgesten sowie Tippen, Doppeltippen und physische Klicks mit drei oder vier Fingern lassen sich mit Tastenkürzeln, Einzeltasten, Mittelklicks oder Fensteraktionen belegen. Langes Berühren ist für den Displaywechsel reserviert. Aktionen verwenden das unter dem Zeiger fixierte Fenster.
+Ohne Auslösetaste. Drei-Finger-Wisch- und Umkehrgesten sowie Tippen, Doppeltippen und physische Klicks mit drei oder vier Fingern lassen sich mit Tastenkürzeln, Einzeltasten, Mittelklicks oder Fensteraktionen belegen; langes Berühren ist für den Displaywechsel reserviert. Alle Aktionen wirken auf das unter dem Zeiger fixierte Fenster, ergänzt durch einen Übungsmodus zur Vorschau ohne Ausführung.
 
-Bei Neuinstallationen aktiviert; Updates behalten bestehende Einstellungen. Langes Berühren ist für Bildschirmwechsel reserviert, andere Gesten sind frei belegbar. Die Übung zeigt eine Vorschau ohne Ausführung.
-
-Deaktiviere vor Dreifinger-Wischgesten und der Bildschirmauswahl durch langes Berühren das systemweite Bewegen mit drei Fingern. Stelle horizontales und vertikales Wischen auf vier Finger um oder deaktiviere es. TelunKey zeigt nur aktive Konflikte und führt zu Trackpad → Weitere Gesten oder Bedienungshilfen → Zeigersteuerung → Trackpad-Optionen. Bei deiner Rückkehr wird automatisch erneut geprüft; du kannst es auch später einrichten. Bis zur Lösung bleiben Dreifinger-Wischen und langes Berühren inaktiv, Tippen und Klicken bleiben verfügbar. Konflikte mit Nachschlagen werden separat angezeigt. TelunKey ändert keine Systemeinstellungen automatisch.
+Bei Konflikten mit systemweiten Drei-Finger-Gesten zum Wischen, Bewegen oder Nachschlagen zeigt TelunKey nur die aktiven Optionen an, öffnet direkt die passende Seite der Systemeinstellungen und prüft bei der Rückkehr automatisch erneut, ohne selbst Systemeinstellungen zu ändern. Bis zur Lösung bleiben Drei-Finger-Wischen und langes Berühren inaktiv, während Tippen und Klicken verfügbar bleiben.
 
 ## Gedrückt halten zum Displaywechsel
 
-Links, rechts oder oben? Langes Berühren öffnet eine Karte Ihrer macOS-Displayanordnung. Zum gewünschten Display gleiten und die Finger anheben, um das Fenster zu verschieben.
+Links, rechts oder oben? Langes Berühren öffnet eine Karte entsprechend Ihrer macOS-Displayanordnung; gleiten Sie zum gewünschten Display und heben Sie die Finger an, um das Fenster proportional zum nutzbaren Bereich zu verschieben.
 
-- Vier Finger ruhig halten, dann zum Zielbildschirm gleiten. Nach der Einrichtung gehen auch drei Finger oder die gehaltene Auslösetaste mit den aktivierten ein bis drei Fingern
-- Nach Displayanordnung wählen; die Fensterposition wird proportional auf die nutzbaren Bereiche übertragen
-- Vor dem Bestätigen zurückgleiten; Anheben auf dem Quelldisplay oder im Leerraum bricht ab. Mit Esc kannst du ebenfalls abbrechen.
-
-Normales Vierfinger-Wischen bleibt bei macOS. Halte vier Finger zuerst ruhig auf dem Trackpad. Erst nach Beginn der Bildschirmauswahl übernimmt TelunKey vorübergehend diese Geste. Beim Abheben übernimmt wieder macOS.
-
-Auf den aktuell sichtbaren Schreibtisch eines anderen Displays. Bei nur einem Display gibt es kein Ziel. Vollbildfenster und Displays mit einer Vollbild-App sind ausgeschlossen. Anheben auf dem Quelldisplay, im Leerraum oder auf einem nicht verfügbaren Display bricht ab. Bei Auslösegesten muss die Auslösetaste bis zum Anheben gehalten werden; früheres Loslassen bricht ebenfalls ab.
+- Mit vier Fingern lang berühren, um ein Display zu wählen (normales Vier-Finger-Wischen bleibt bei macOS); nach der Einrichtung funktionieren auch drei Finger oder die gehaltene Auslösetaste mit ein bis drei aktivierten Fingern
+- Verschiebt das Fenster auf den aktuell sichtbaren Schreibtisch des Zieldisplays; Vollbildfenster und Displays mit einer Vollbild-App sind ausgeschlossen
+- Vor dem Bestätigen jederzeit zurückgleiten; Anheben auf dem Quelldisplay oder im Leerraum, vorzeitiges Loslassen der Auslösetaste oder Esc bricht ab
 
 ## Betrieb und Einstellungen
 

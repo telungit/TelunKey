@@ -47,23 +47,17 @@ Segure a tecla de ativação e deslize com um, dois ou três dedos habilitados p
 
 ## Gestos globais com três e quatro dedos
 
-Sem tecla de ativação. Associe deslizes e movimentos de ida e volta com três dedos, bem como toques, duplos toques e cliques físicos com três ou quatro dedos a atalhos, teclas individuais, cliques do meio ou operações de janela. O toque prolongado está reservado para mover entre ecrãs. As ações usam a janela fixada sob o cursor.
+Sem tecla de ativação. Associe deslizes e movimentos de ida e volta com três dedos, bem como toques, duplos toques e cliques físicos com três ou quatro dedos a atalhos, teclas individuais, cliques do meio ou operações de janela; o toque prolongado é reservado à mudança de tela. Todas as ações atuam na janela fixada sob o cursor e contam com um modo de prática que apenas pré-visualiza sem executar.
 
-Ativado em novas instalações; atualizações preservam seus ajustes. O toque prolongado é reservado à mudança de tela. Os demais gestos podem ser remapeados; a prática mostra sem executar.
-
-Antes de usar deslizes com três dedos ou manter o toque para escolher uma tela, desative o arrasto do sistema com três dedos e altere os deslizes horizontais e verticais para quatro dedos, ou desative-os. O TelunKey lista apenas conflitos ativos e leva a Trackpad → Mais Gestos ou Acessibilidade → Controle do Cursor → Opções do Trackpad. A verificação é automática ao voltar; você também pode configurar depois. Enquanto houver conflitos, os deslizes e o toque prolongado com três dedos ficam inativos; toques e cliques continuam disponíveis. Conflitos com a consulta do sistema são indicados separadamente. O TelunKey nunca altera os ajustes do sistema automaticamente.
+Se houver conflito com o deslize, o arrasto ou a pesquisa do sistema com três dedos, o TelunKey lista apenas os itens ativos e abre diretamente a página correspondente dos Ajustes do Sistema, verificando novamente ao voltar sem alterar nada por conta própria. Até que o conflito seja resolvido, os deslizes e o toque prolongado com três dedos ficam inativos, enquanto toques e cliques continuam disponíveis.
 
 ## Mantenha o toque para mudar de ecrã
 
-À esquerda, à direita ou acima? Um toque prolongado abre um mapa que segue a disposição de ecrãs do macOS. Deslize até ao ecrã pretendido e levante os dedos para mover a janela.
+À esquerda, à direita ou acima? Um toque prolongado abre um mapa fiel à disposição de telas do macOS; deslize até a tela desejada e levante os dedos para mover a janela mantendo sua proporção na área útil.
 
-- Mantenha quatro dedos parados e deslize para escolher a tela. Também funcionam três dedos após a configuração ou a tecla de ativação pressionada com um a três dedos habilitados
-- Escolha pela disposição dos ecrãs; a janela mantém a posição proporcional nas áreas utilizáveis
-- Pode voltar antes de confirmar; levante os dedos no ecrã de origem ou num espaço vazio para cancelar. Você também pode cancelar com Esc.
-
-Os deslizes comuns com quatro dedos continuam no macOS. Primeiro mantenha quatro dedos parados. O TelunKey assume temporariamente esse gesto somente depois que a seleção de tela começa; ao levantar os dedos, o controle volta ao sistema.
-
-Para a secretária atualmente visível noutro ecrã. Um só ecrã não oferece destino. Janelas em ecrã completo e ecrãs com apps em ecrã completo ficam excluídos. Levantar os dedos na origem, num espaço vazio ou num ecrã indisponível cancela. Nos gestos de ativação, mantenha a tecla até levantar os dedos; soltá-la antes também cancela.
+- Mantenha quatro dedos apoiados para escolher a tela (os deslizes comuns de quatro dedos continuam no macOS); também funcionam três dedos após a configuração, ou a tecla de ativação pressionada com um a três dedos habilitados
+- Move a janela para a mesa visível na tela de destino; janelas em tela cheia e telas exibindo um app em tela cheia ficam de fora
+- Você pode voltar antes de confirmar; levante os dedos na tela de origem ou num espaço vazio, solte a tecla de ativação antes ou pressione Esc para cancelar
 
 ## Funcionamento e configurações
 

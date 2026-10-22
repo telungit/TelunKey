@@ -47,23 +47,17 @@ Maintenez la touche de déclenchement et balayez avec un, deux ou trois doigts a
 
 ## Gestes globaux à trois et quatre doigts
 
-Sans touche de déclenchement. Associez les balayages et allers-retours à trois doigts, ainsi que les touchers, doubles touchers et clics physiques à trois ou quatre doigts à des raccourcis, touches seules, clics du milieu ou opérations de fenêtre. L’appui prolongé est réservé au déplacement entre écrans. Les actions visent la fenêtre fixée sous le pointeur.
+Sans touche de déclenchement. Associez les balayages et allers-retours à trois doigts, ainsi que les touchers, doubles touchers et clics physiques à trois ou quatre doigts à des raccourcis, touches seules, clics du milieu ou opérations de fenêtre ; l’appui prolongé est réservé au changement d’écran. Toutes les actions ciblent la fenêtre verrouillée sous le pointeur, avec un mode d’entraînement qui prévisualise sans exécuter.
 
-Activé à la première installation ; les mises à jour conservent vos réglages. L’appui prolongé est réservé au déplacement entre écrans. Les autres gestes sont modifiables ; l’entraînement prévisualise sans exécuter.
-
-Avant les balayages à trois doigts ou le choix d’un écran par appui prolongé, désactivez le glissement système à trois doigts et passez les balayages horizontaux et verticaux à quatre doigts, ou désactivez-les. TelunKey liste uniquement les conflits actifs et vous guide vers Trackpad → Gestes supplémentaires ou Accessibilité → Contrôle du pointeur → Options du trackpad. La vérification est automatique à votre retour ; vous pouvez aussi configurer plus tard. En attendant, les balayages et l’appui prolongé à trois doigts restent inactifs, mais les touchers et clics sont disponibles. Les conflits avec la recherche système sont signalés séparément. TelunKey ne modifie jamais les réglages système automatiquement.
+En cas de conflit avec le balayage, le glissement ou la définition système à trois doigts, TelunKey liste uniquement les options actives et ouvre directement la page correspondante des Réglages Système, puis revérifie automatiquement à votre retour sans jamais modifier vos réglages lui-même. Tant que le conflit persiste, les balayages et l’appui prolongé à trois doigts restent inactifs, tandis que les touchers et clics demeurent disponibles.
 
 ## Appui prolongé pour changer d’écran
 
-À gauche, à droite ou au-dessus ? Un appui prolongé révèle une carte fidèle à la disposition de vos écrans macOS. Glissez vers l’écran voulu, puis relevez les doigts pour déplacer la fenêtre.
+À gauche, à droite ou au-dessus ? Un appui prolongé révèle une carte fidèle à la disposition de vos écrans macOS ; glissez vers l’écran voulu, puis relevez les doigts pour y déplacer la fenêtre en conservant ses proportions.
 
-- Maintenez quatre doigts, puis glissez pour choisir l’écran. Trois doigts après configuration, ou la touche de déclenchement maintenue avec un à trois doigts activés, fonctionnent aussi
-- Choisissez selon la disposition des écrans ; le placement est proportionnel à leurs zones utilisables
-- Vous pouvez revenir avant de confirmer ; relevez les doigts sur l’écran source ou dans le vide pour annuler. Vous pouvez aussi annuler avec Esc.
-
-Les balayages ordinaires à quatre doigts restent à macOS. Maintenez d’abord quatre doigts immobiles : TelunKey prend temporairement en charge ce geste seulement une fois le choix d’écran ouvert. Levez les doigts pour rendre la main au système.
-
-Vers le bureau actuellement visible d’un autre écran. Un seul écran n’offre aucune destination. Les fenêtres en plein écran et les écrans affichant une app en plein écran sont exclus. Relever les doigts sur l’écran source, dans le vide ou sur un écran indisponible annule. Avec les gestes déclenchés, gardez la touche enfoncée jusqu’au relèvement des doigts ; la relâcher avant annule aussi.
+- Maintenez quatre doigts pour choisir un écran (les balayages ordinaires à quatre doigts restent à macOS) ; trois doigts une fois prêts, ou la touche de déclenchement maintenue avec un à trois doigts activés, fonctionnent aussi
+- Déplace la fenêtre vers le bureau actuellement visible sur l’écran cible ; les fenêtres en plein écran et les écrans affichant une app en plein écran sont exclus
+- Revenez en arrière à tout moment avant de confirmer ; relevez les doigts sur l’écran source ou dans le vide, relâchez la touche de déclenchement plus tôt ou appuyez sur Esc pour annuler
 
 ## Fonctionnement et réglages
 

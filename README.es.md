@@ -47,23 +47,17 @@ Mantén la tecla de activación y desliza con uno, dos o tres dedos habilitados 
 
 ## Gestos globales con tres y cuatro dedos
 
-Sin tecla de activación. Asigna deslizamientos y recorridos de ida y vuelta con tres dedos, además de toques, dobles toques y clics físicos con tres o cuatro dedos a atajos, teclas individuales, clics centrales u operaciones de ventana. La pulsación prolongada se reserva para mover entre pantallas. Las acciones usan la ventana fijada bajo el puntero.
+Sin tecla de activación. Asigna deslizamientos y recorridos de ida y vuelta con tres dedos, además de toques, dobles toques y clics físicos con tres o cuatro dedos a atajos, teclas individuales, clics centrales u operaciones de ventana; la pulsación prolongada se reserva para cambiar de pantalla. Todas las acciones actúan sobre la ventana fijada bajo el puntero e incluyen un modo de práctica que previsualiza sin ejecutar.
 
-Activado en instalaciones nuevas; las actualizaciones conservan tus ajustes. El contacto prolongado se reserva para mover entre pantallas. Los demás gestos pueden reasignarse; la práctica muestra sin ejecutar.
-
-Antes de usar deslizamientos con tres dedos o mantener el contacto para elegir una pantalla, desactiva el arrastre del sistema con tres dedos y cambia los deslizamientos horizontales y verticales a cuatro dedos, o desactívalos. TelunKey muestra solo los conflictos activos y abre Trackpad → Más gestos o Accesibilidad → Control del puntero → Opciones del trackpad. Comprueba de nuevo al volver; también puedes configurarlo más tarde. Mientras haya conflictos, los deslizamientos y el contacto prolongado con tres dedos quedan inactivos; los toques y clics siguen disponibles. Los conflictos con la consulta del sistema se indican por separado. TelunKey nunca modifica los ajustes del sistema automáticamente.
+Si hay conflicto con el deslizamiento, el arrastre o la consulta del sistema con tres dedos, TelunKey muestra solo las opciones activas y abre directamente la página correspondiente de Ajustes del Sistema, volviendo a comprobar al regresar sin modificar nada por su cuenta. Mientras persista el conflicto, los deslizamientos y la pulsación prolongada con tres dedos quedan inactivos, pero los toques y clics siguen disponibles.
 
 ## Mantén pulsado para cambiar de pantalla
 
-¿A la izquierda, derecha o arriba? Una pulsación prolongada abre un mapa que sigue la disposición de pantallas de macOS. Desliza hasta la pantalla deseada y levanta los dedos para mover la ventana.
+¿A la izquierda, derecha o arriba? Mantén pulsado para abrir un mapa fiel a la disposición de pantallas de macOS, desliza hacia la pantalla deseada y levanta los dedos para mover la ventana conservando su proporción.
 
-- Mantén cuatro dedos quietos y desliza para elegir pantalla. También funcionan tres dedos tras la configuración, o la tecla de activación mantenida con uno a tres dedos habilitados
-- Elige según la disposición de pantallas; la ventana conserva su posición proporcional en las áreas utilizables
-- Puedes volver antes de confirmar; levanta los dedos en la pantalla de origen o en un espacio vacío para cancelar. También puedes cancelar con Esc.
-
-Los deslizamientos normales con cuatro dedos siguen en macOS. Primero mantén cuatro dedos quietos. TelunKey solo toma el control temporal de ese gesto cuando se abre la selección de pantalla; al levantar los dedos, vuelve al sistema.
-
-Al escritorio visible en otra pantalla. Una sola pantalla no ofrece destino. Se excluyen ventanas a pantalla completa y pantallas con apps a pantalla completa. Levantar los dedos en el origen, en un espacio vacío o en una pantalla no disponible cancela. En los gestos de activación, mantén la tecla hasta levantar los dedos; soltarla antes también cancela.
+- Mantén pulsados cuatro dedos para elegir pantalla (los deslizamientos normales de cuatro dedos siguen en macOS); también funcionan tres dedos una vez configurados, o la tecla de activación mantenida con uno a tres dedos habilitados
+- Mueve la ventana al escritorio visible en la pantalla de destino; se excluyen las ventanas a pantalla completa y las pantallas con una app a pantalla completa
+- Puedes volver atrás antes de confirmar; levanta los dedos en la pantalla de origen o en un espacio vacío, suelta antes la tecla de activación o pulsa Esc para cancelar
 
 ## Funcionamiento y configuración
 

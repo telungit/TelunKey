@@ -47,23 +47,17 @@ Hold the trigger key and swipe with your enabled one-, two-, or three-finger ges
 
 ## Three- and four-finger global gestures
 
-No trigger key needed. Map three-finger swipes and return strokes, plus three- or four-finger taps, double taps, and physical clicks to shortcuts, single keys, middle clicks, or window operations. Touch and hold is reserved for moving between displays. Actions use the window locked under the pointer.
+No trigger key needed. Map three-finger swipes and return strokes, plus three- or four-finger taps, double taps, and physical clicks to shortcuts, single keys, middle clicks, or window operations; touch and hold is reserved for moving between displays. All actions target the window locked under the pointer, with a practice mode that previews without executing.
 
-On for new installs; upgrades preserve existing settings. Touch and hold is reserved for moving between displays. Other gestures can be remapped; practice previews actions without running them.
-
-Before using three-finger swipes or touch-and-hold display selection, turn off system three-finger dragging and switch system horizontal and vertical swipes to four fingers or turn them off. TelunKey lists only enabled conflicts and links to Trackpad → More Gestures or Accessibility → Pointer Control → Trackpad Options. It checks again when you return, and you can set this up later. Until conflicts are resolved, three-finger swipes and display selection stay inactive; taps and clicks remain available. System Look Up conflicts are shown separately. TelunKey never changes System Settings automatically.
+If a system three-finger swipe, drag, or Look Up gesture conflicts, TelunKey lists only the enabled items and links directly to the relevant System Settings page, rechecking automatically when you return without modifying System Settings on its own. Until resolved, three-finger swipes and touch-and-hold stay inactive while taps and clicks remain available.
 
 ## Hold to move between displays
 
-Left, right, or above? Touch and hold to reveal a map that follows your macOS display arrangement. Slide to the display you want, then lift to move the window.
+Left, right, or above? Touch and hold to reveal a map that follows your macOS display arrangement, slide to the display you want, and lift to move the window while keeping its proportional placement.
 
-- Hold four fingers still, then slide to choose a display; three fingers after setup, or a held trigger key with your enabled one to three fingers, also work
-- Choose by display arrangement; the window keeps its proportional placement within usable screen areas
-- You can slide back before confirming; lift on the source display or empty space to cancel. You can also press Esc to cancel.
-
-Regular four-finger swipes stay with macOS. Hold four fingers still first; only after display selection starts does TelunKey temporarily take over that gesture. Lift to return control to macOS.
-
-You can move it to the desktop currently visible on another display. A single display has no destination. Full-screen windows are excluded, and a display showing a full-screen app is unavailable. Lift on the source, empty space, or an unavailable display to cancel. With trigger gestures, keep the trigger key held; releasing it early also cancels.
+- Touch and hold with four fingers to choose a display (regular four-finger swipes stay with macOS); three fingers once ready, or a held trigger key with your enabled one to three fingers, also work
+- Moves the window to the desktop currently visible on the target display; full-screen windows and displays showing a full-screen app are excluded
+- Slide back anytime before confirming; lift on the source display or empty space, release the trigger key early, or press Esc to cancel
 
 ## Runtime and settings
 
