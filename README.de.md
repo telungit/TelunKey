@@ -37,21 +37,33 @@ Die Auswahl ordnet Fensterminiaturen wie die Tastatur an: 1–0, Q–P, A–L, Z
 
 ## Auslösegesten
 
-Halte die Auslösetaste und wische mit zwei Fingern über das Trackpad, um das Fenster unter dem Zeiger auf einer Hälfte oder einem Viertel des Bildschirms anzuordnen oder es zu maximieren.
+Halte die Auslösetaste und wische mit den aktivierten ein, zwei oder drei Fingern, um das Fenster unter dem Zeiger halb, geviertelt oder maximiert anzuordnen.
 
 - Hoch, runter, links, rechts: Hälften. Vier Diagonalen: Viertel
 - Hoch und wieder runter ohne abzusetzen: maximieren, Menüleiste und Dock bleiben
 - In die Abbruchzone wischen bricht ab, zurückwischen wählt neu
 
-### Drei-Finger-Gesten
-
-Einmal aktiviert, können acht Richtungen, Hin-und-zurück-Wischen, Tippen, Doppeltippen, langes Berühren und Klicken jeweils ein Tastenkürzel, eine einzelne Taste, einen Mittelklick oder eine Fensteraktion senden.
-
-- Standardmäßig aus. Bei Konflikten mit einer System-Drei-Finger-Geste zeigen die Einstellungen sie an und verlinken zur Lösung
-- Zwischen Bildschirmen: Führe eine Drei-Finger-Geste über den Abbruchbereich hinaus nach außen fort, um das Fenster unter Beibehaltung seiner Proportionen auf einen anderen Bildschirm zu verschieben.
-- Jede Geste lässt sich neu belegen, und ein Übungsmodus zeigt Aktionen nur in der Vorschau, ohne sie auszuführen.
-
 <p align="center"><img src="./images/en/gestures.png" width="380" alt="Einstellungen für Auslösegesten" /></p>
+
+## Globale Gesten mit drei und vier Fingern
+
+Ohne Auslösetaste. Drei-Finger-Wisch- und Umkehrgesten sowie Tippen, Doppeltippen und physische Klicks mit drei oder vier Fingern lassen sich mit Tastenkürzeln, Einzeltasten, Mittelklicks oder Fensteraktionen belegen. Langes Berühren ist für den Displaywechsel reserviert. Aktionen verwenden das unter dem Zeiger fixierte Fenster.
+
+Bei Neuinstallationen aktiviert; Updates behalten bestehende Einstellungen. Langes Berühren ist für Bildschirmwechsel reserviert, andere Gesten sind frei belegbar. Die Übung zeigt eine Vorschau ohne Ausführung.
+
+Deaktiviere vor Dreifinger-Wischgesten und der Bildschirmauswahl durch langes Berühren das systemweite Bewegen mit drei Fingern. Stelle horizontales und vertikales Wischen auf vier Finger um oder deaktiviere es. TelunKey zeigt nur aktive Konflikte und führt zu Trackpad → Weitere Gesten oder Bedienungshilfen → Zeigersteuerung → Trackpad-Optionen. Bei deiner Rückkehr wird automatisch erneut geprüft; du kannst es auch später einrichten. Bis zur Lösung bleiben Dreifinger-Wischen und langes Berühren inaktiv, Tippen und Klicken bleiben verfügbar. Konflikte mit Nachschlagen werden separat angezeigt. TelunKey ändert keine Systemeinstellungen automatisch.
+
+## Gedrückt halten zum Displaywechsel
+
+Links, rechts oder oben? Langes Berühren öffnet eine Karte Ihrer macOS-Displayanordnung. Zum gewünschten Display gleiten und die Finger anheben, um das Fenster zu verschieben.
+
+- Vier Finger ruhig halten, dann zum Zielbildschirm gleiten. Nach der Einrichtung gehen auch drei Finger oder die gehaltene Auslösetaste mit den aktivierten ein bis drei Fingern
+- Nach Displayanordnung wählen; die Fensterposition wird proportional auf die nutzbaren Bereiche übertragen
+- Vor dem Bestätigen zurückgleiten; Anheben auf dem Quelldisplay oder im Leerraum bricht ab. Mit Esc kannst du ebenfalls abbrechen.
+
+Normales Vierfinger-Wischen bleibt bei macOS. Halte vier Finger zuerst ruhig auf dem Trackpad. Erst nach Beginn der Bildschirmauswahl übernimmt TelunKey vorübergehend diese Geste. Beim Abheben übernimmt wieder macOS.
+
+Auf den aktuell sichtbaren Schreibtisch eines anderen Displays. Bei nur einem Display gibt es kein Ziel. Vollbildfenster und Displays mit einer Vollbild-App sind ausgeschlossen. Anheben auf dem Quelldisplay, im Leerraum oder auf einem nicht verfügbaren Display bricht ab. Bei Auslösegesten muss die Auslösetaste bis zum Anheben gehalten werden; früheres Loslassen bricht ebenfalls ab.
 
 ## Betrieb und Einstellungen
 

@@ -37,21 +37,33 @@ Le sélecteur dispose les miniatures dans l’ordre du clavier : 1–0, Q–P, A
 
 ## Gestes de déclenchement
 
-Maintenez la touche de déclenchement et balayez le trackpad à deux doigts pour placer la fenêtre sous le pointeur sur une moitié, un quart de l’écran, ou l’agrandir.
+Maintenez la touche de déclenchement et balayez avec un, deux ou trois doigts activés pour placer la fenêtre sous le pointeur sur une moitié, un quart ou la maximiser.
 
 - Haut, bas, gauche, droite : moitiés. Quatre diagonales : quarts
 - Haut puis bas sans lever les doigts : agrandir, en gardant la barre des menus et le Dock
 - Entrez dans la zone d'annulation pour annuler ; revenez pour choisir à nouveau
 
-### Gestes à trois doigts
-
-Une fois activés, huit directions, allers-retours, toucher, double toucher, toucher long et clic peuvent chacun envoyer un raccourci, une touche seule, un clic central ou une action de fenêtre.
-
-- Désactivés par défaut. En cas de conflit avec un geste système à trois doigts, les réglages l'indiquent et mènent à la solution
-- D’un écran à l’autre : poursuivez le geste à trois doigts vers l’extérieur, au-delà de la zone d’annulation, pour déplacer la fenêtre vers un autre écran en conservant ses proportions.
-- Chaque geste peut être réattribué, et un mode d’entraînement prévisualise les actions sans les exécuter.
-
 <p align="center"><img src="./images/en/gestures.png" width="380" alt="Réglages des gestes de déclenchement" /></p>
+
+## Gestes globaux à trois et quatre doigts
+
+Sans touche de déclenchement. Associez les balayages et allers-retours à trois doigts, ainsi que les touchers, doubles touchers et clics physiques à trois ou quatre doigts à des raccourcis, touches seules, clics du milieu ou opérations de fenêtre. L’appui prolongé est réservé au déplacement entre écrans. Les actions visent la fenêtre fixée sous le pointeur.
+
+Activé à la première installation ; les mises à jour conservent vos réglages. L’appui prolongé est réservé au déplacement entre écrans. Les autres gestes sont modifiables ; l’entraînement prévisualise sans exécuter.
+
+Avant les balayages à trois doigts ou le choix d’un écran par appui prolongé, désactivez le glissement système à trois doigts et passez les balayages horizontaux et verticaux à quatre doigts, ou désactivez-les. TelunKey liste uniquement les conflits actifs et vous guide vers Trackpad → Gestes supplémentaires ou Accessibilité → Contrôle du pointeur → Options du trackpad. La vérification est automatique à votre retour ; vous pouvez aussi configurer plus tard. En attendant, les balayages et l’appui prolongé à trois doigts restent inactifs, mais les touchers et clics sont disponibles. Les conflits avec la recherche système sont signalés séparément. TelunKey ne modifie jamais les réglages système automatiquement.
+
+## Appui prolongé pour changer d’écran
+
+À gauche, à droite ou au-dessus ? Un appui prolongé révèle une carte fidèle à la disposition de vos écrans macOS. Glissez vers l’écran voulu, puis relevez les doigts pour déplacer la fenêtre.
+
+- Maintenez quatre doigts, puis glissez pour choisir l’écran. Trois doigts après configuration, ou la touche de déclenchement maintenue avec un à trois doigts activés, fonctionnent aussi
+- Choisissez selon la disposition des écrans ; le placement est proportionnel à leurs zones utilisables
+- Vous pouvez revenir avant de confirmer ; relevez les doigts sur l’écran source ou dans le vide pour annuler. Vous pouvez aussi annuler avec Esc.
+
+Les balayages ordinaires à quatre doigts restent à macOS. Maintenez d’abord quatre doigts immobiles : TelunKey prend temporairement en charge ce geste seulement une fois le choix d’écran ouvert. Levez les doigts pour rendre la main au système.
+
+Vers le bureau actuellement visible d’un autre écran. Un seul écran n’offre aucune destination. Les fenêtres en plein écran et les écrans affichant une app en plein écran sont exclus. Relever les doigts sur l’écran source, dans le vide ou sur un écran indisponible annule. Avec les gestes déclenchés, gardez la touche enfoncée jusqu’au relèvement des doigts ; la relâcher avant annule aussi.
 
 ## Fonctionnement et réglages
 

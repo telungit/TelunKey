@@ -37,21 +37,33 @@ El selector ordena las miniaturas como el teclado: 1–0, Q–P, A–L, Z–M, c
 
 ## Gestos de activación
 
-Mantén pulsada la tecla de activación y desliza dos dedos en el trackpad para colocar la ventana bajo el puntero en media pantalla, un cuarto o maximizada.
+Mantén la tecla de activación y desliza con uno, dos o tres dedos habilitados para colocar la ventana bajo el puntero en mitades, cuartos o maximizarla.
 
 - Arriba, abajo, izquierda, derecha: mitades. Cuatro diagonales: cuartos
 - Arriba y luego abajo sin levantar: maximizar, conservando la barra de menús y el Dock
 - Entra en la zona de cancelación para cancelar; vuelve para elegir otra vez
 
-### Gestos de tres dedos
-
-Al activarlos, ocho direcciones, idas y vueltas, toque, doble toque, toque largo y clic pueden enviar un atajo, una sola tecla, un clic central o una acción de ventana.
-
-- Desactivados por defecto. Si chocan con un gesto de tres dedos del sistema, Ajustes lo indica y enlaza a la solución
-- Entre pantallas: continúa un gesto de tres dedos hacia fuera, más allá de la zona de cancelación, para mover la ventana a otra pantalla conservando sus proporciones.
-- Cada gesto se puede reasignar, y un modo de práctica muestra las acciones sin ejecutarlas.
-
 <p align="center"><img src="./images/en/gestures.png" width="380" alt="Ajustes de gestos de activación" /></p>
+
+## Gestos globales con tres y cuatro dedos
+
+Sin tecla de activación. Asigna deslizamientos y recorridos de ida y vuelta con tres dedos, además de toques, dobles toques y clics físicos con tres o cuatro dedos a atajos, teclas individuales, clics centrales u operaciones de ventana. La pulsación prolongada se reserva para mover entre pantallas. Las acciones usan la ventana fijada bajo el puntero.
+
+Activado en instalaciones nuevas; las actualizaciones conservan tus ajustes. El contacto prolongado se reserva para mover entre pantallas. Los demás gestos pueden reasignarse; la práctica muestra sin ejecutar.
+
+Antes de usar deslizamientos con tres dedos o mantener el contacto para elegir una pantalla, desactiva el arrastre del sistema con tres dedos y cambia los deslizamientos horizontales y verticales a cuatro dedos, o desactívalos. TelunKey muestra solo los conflictos activos y abre Trackpad → Más gestos o Accesibilidad → Control del puntero → Opciones del trackpad. Comprueba de nuevo al volver; también puedes configurarlo más tarde. Mientras haya conflictos, los deslizamientos y el contacto prolongado con tres dedos quedan inactivos; los toques y clics siguen disponibles. Los conflictos con la consulta del sistema se indican por separado. TelunKey nunca modifica los ajustes del sistema automáticamente.
+
+## Mantén pulsado para cambiar de pantalla
+
+¿A la izquierda, derecha o arriba? Una pulsación prolongada abre un mapa que sigue la disposición de pantallas de macOS. Desliza hasta la pantalla deseada y levanta los dedos para mover la ventana.
+
+- Mantén cuatro dedos quietos y desliza para elegir pantalla. También funcionan tres dedos tras la configuración, o la tecla de activación mantenida con uno a tres dedos habilitados
+- Elige según la disposición de pantallas; la ventana conserva su posición proporcional en las áreas utilizables
+- Puedes volver antes de confirmar; levanta los dedos en la pantalla de origen o en un espacio vacío para cancelar. También puedes cancelar con Esc.
+
+Los deslizamientos normales con cuatro dedos siguen en macOS. Primero mantén cuatro dedos quietos. TelunKey solo toma el control temporal de ese gesto cuando se abre la selección de pantalla; al levantar los dedos, vuelve al sistema.
+
+Al escritorio visible en otra pantalla. Una sola pantalla no ofrece destino. Se excluyen ventanas a pantalla completa y pantallas con apps a pantalla completa. Levantar los dedos en el origen, en un espacio vacío o en una pantalla no disponible cancela. En los gestos de activación, mantén la tecla hasta levantar los dedos; soltarla antes también cancela.
 
 ## Funcionamiento y configuración
 

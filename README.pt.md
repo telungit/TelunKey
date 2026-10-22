@@ -37,21 +37,33 @@ O seletor organiza as miniaturas na ordem do teclado: 1–0, Q–P, A–L, Z–M
 
 ## Gestos de gatilho
 
-Mantenha a tecla de gatilho pressionada e deslize dois dedos no trackpad para posicionar a janela sob o ponteiro em metade da tela, um quarto ou maximizada.
+Segure a tecla de ativação e deslize com um, dois ou três dedos habilitados para posicionar a janela sob o cursor em metades, quartos ou maximizá-la.
 
 - Cima, baixo, esquerda, direita: metades. Quatro diagonais: quartos
 - Para cima e depois para baixo sem levantar: maximizar, mantendo a barra de menus e o Dock
 - Entre na zona de cancelamento para cancelar; volte para escolher de novo
 
-### Gestos com três dedos
-
-Depois de ativados, oito direções, idas e voltas, toque, toque duplo, toque longo e clique podem enviar um atalho, uma única tecla, um clique do meio ou uma ação de janela.
-
-- Desativados por padrão. Se houver conflito com um gesto de três dedos do sistema, os Ajustes mostram e indicam como resolver
-- Entre monitores: continue um gesto de três dedos para fora, além da zona de cancelamento, para mover a janela a outro monitor mantendo suas proporções.
-- Todo gesto pode ser reatribuído, e um modo de prática pré-visualiza as ações sem executá-las.
-
 <p align="center"><img src="./images/en/gestures.png" width="380" alt="Ajustes de gestos de gatilho" /></p>
+
+## Gestos globais com três e quatro dedos
+
+Sem tecla de ativação. Associe deslizes e movimentos de ida e volta com três dedos, bem como toques, duplos toques e cliques físicos com três ou quatro dedos a atalhos, teclas individuais, cliques do meio ou operações de janela. O toque prolongado está reservado para mover entre ecrãs. As ações usam a janela fixada sob o cursor.
+
+Ativado em novas instalações; atualizações preservam seus ajustes. O toque prolongado é reservado à mudança de tela. Os demais gestos podem ser remapeados; a prática mostra sem executar.
+
+Antes de usar deslizes com três dedos ou manter o toque para escolher uma tela, desative o arrasto do sistema com três dedos e altere os deslizes horizontais e verticais para quatro dedos, ou desative-os. O TelunKey lista apenas conflitos ativos e leva a Trackpad → Mais Gestos ou Acessibilidade → Controle do Cursor → Opções do Trackpad. A verificação é automática ao voltar; você também pode configurar depois. Enquanto houver conflitos, os deslizes e o toque prolongado com três dedos ficam inativos; toques e cliques continuam disponíveis. Conflitos com a consulta do sistema são indicados separadamente. O TelunKey nunca altera os ajustes do sistema automaticamente.
+
+## Mantenha o toque para mudar de ecrã
+
+À esquerda, à direita ou acima? Um toque prolongado abre um mapa que segue a disposição de ecrãs do macOS. Deslize até ao ecrã pretendido e levante os dedos para mover a janela.
+
+- Mantenha quatro dedos parados e deslize para escolher a tela. Também funcionam três dedos após a configuração ou a tecla de ativação pressionada com um a três dedos habilitados
+- Escolha pela disposição dos ecrãs; a janela mantém a posição proporcional nas áreas utilizáveis
+- Pode voltar antes de confirmar; levante os dedos no ecrã de origem ou num espaço vazio para cancelar. Você também pode cancelar com Esc.
+
+Os deslizes comuns com quatro dedos continuam no macOS. Primeiro mantenha quatro dedos parados. O TelunKey assume temporariamente esse gesto somente depois que a seleção de tela começa; ao levantar os dedos, o controle volta ao sistema.
+
+Para a secretária atualmente visível noutro ecrã. Um só ecrã não oferece destino. Janelas em ecrã completo e ecrãs com apps em ecrã completo ficam excluídos. Levantar os dedos na origem, num espaço vazio ou num ecrã indisponível cancela. Nos gestos de ativação, mantenha a tecla até levantar os dedos; soltá-la antes também cancela.
 
 ## Funcionamento e configurações
 

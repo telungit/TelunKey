@@ -37,21 +37,33 @@ The selector arranges window thumbnails in keyboard order: 1–0, Q–P, A–L, 
 
 ## Trigger gestures
 
-Hold the trigger key and swipe two fingers on the trackpad to arrange the window under the pointer to fill half or a quarter of the screen, or to maximize it.
+Hold the trigger key and swipe with your enabled one-, two-, or three-finger gesture to arrange the window under the pointer in halves, quarters, or maximized.
 
 - Up, down, left, right: halves. Four diagonals: quarters
 - Up then down without lifting: maximize, keeping the menu bar and Dock
 - Slide into the cancel zone to cancel, slide back to choose again
 
-### Three-finger gestures
-
-Once enabled, eight directions, back-and-forth swipes, tap, double tap, long touch and press can each send a shortcut, a single key, a middle click, or a window action.
-
-- Off by default. If it conflicts with a system three-finger gesture, Settings lists it and links to the fix
-- Across displays: continue a three-finger gesture outward past the cancel zone to move the window to another display, keeping its proportions.
-- Every gesture can be remapped, and a practice mode previews actions without running them.
-
 <p align="center"><img src="./images/en/gestures.png" width="380" alt="Trigger gesture settings" /></p>
+
+## Three- and four-finger global gestures
+
+No trigger key needed. Map three-finger swipes and return strokes, plus three- or four-finger taps, double taps, and physical clicks to shortcuts, single keys, middle clicks, or window operations. Touch and hold is reserved for moving between displays. Actions use the window locked under the pointer.
+
+On for new installs; upgrades preserve existing settings. Touch and hold is reserved for moving between displays. Other gestures can be remapped; practice previews actions without running them.
+
+Before using three-finger swipes or touch-and-hold display selection, turn off system three-finger dragging and switch system horizontal and vertical swipes to four fingers or turn them off. TelunKey lists only enabled conflicts and links to Trackpad → More Gestures or Accessibility → Pointer Control → Trackpad Options. It checks again when you return, and you can set this up later. Until conflicts are resolved, three-finger swipes and display selection stay inactive; taps and clicks remain available. System Look Up conflicts are shown separately. TelunKey never changes System Settings automatically.
+
+## Hold to move between displays
+
+Left, right, or above? Touch and hold to reveal a map that follows your macOS display arrangement. Slide to the display you want, then lift to move the window.
+
+- Hold four fingers still, then slide to choose a display; three fingers after setup, or a held trigger key with your enabled one to three fingers, also work
+- Choose by display arrangement; the window keeps its proportional placement within usable screen areas
+- You can slide back before confirming; lift on the source display or empty space to cancel. You can also press Esc to cancel.
+
+Regular four-finger swipes stay with macOS. Hold four fingers still first; only after display selection starts does TelunKey temporarily take over that gesture. Lift to return control to macOS.
+
+You can move it to the desktop currently visible on another display. A single display has no destination. Full-screen windows are excluded, and a display showing a full-screen app is unavailable. Lift on the source, empty space, or an unavailable display to cancel. With trigger gestures, keep the trigger key held; releasing it early also cancels.
 
 ## Runtime and settings
 
